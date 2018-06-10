@@ -9,4 +9,7 @@ list for code and papers
 
 [Detectron.pytorch](https://github.com/roytseng-tw/Detectron.pytorch) A pytorch implementation of Detectron. Both training from scratch and inferring directly from pretrained Detectron weights are available. only for coco now
 
+[AdvSemiSeg](https://github.com/hfslyc/AdvSemiSeg) **cvpr2018**. Adversarial Learning for Semi-supervised Semantic Segmentation.  heavily borrowed from a pytorch DeepLab implementation ([Link](https://github.com/speedinghzl/Pytorch-Deeplab))
+
+
 ## papers
