@@ -1,5 +1,7 @@
 # Semantic-Segmentation
-list for useful code and papers
+List for useful code and papers
+
+Inspired by JackieZhangdx, see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists. 
 
 ## code
 
