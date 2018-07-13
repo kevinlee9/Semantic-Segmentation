@@ -15,7 +15,11 @@ Inspired by JackieZhangdx, see [this](https://github.com/JackieZhangdx/WeakSuper
 
 [PyTorch-ENet](https://github.com/davidtvs/PyTorch-ENet) PyTorch implementation of ENet
 
-[tensorflow-deeplab-resnet](https://github.com/DrSleep/tensorflow-deeplab-resnet) Tensorflow implementation of deeplab-resnet: complete and detailed
+[tensorflow-deeplab-resnet](https://github.com/DrSleep/tensorflow-deeplab-resnet) Tensorflow implementation of deeplab-resnet(deeplabv2, resnet101-based): complete and detailed
+
+[tensorflow-deeplab-lfov](https://github.com/DrSleep/tensorflow-deeplab-lfov) Tensorflow implementation of deeplab-LargeFOV(deeplabv2, vgg16-based): complete and detailed
+
+[resnet38](https://github.com/itijyou/ademxapp)  Wider or Deeper: Revisiting the ResNet Model for Visual Recognition: implemented using MXNET
 
 ## models
 [dcsp](https://github.com/arslan-chaudhry/dcsp_segmentation) BMVC2017 59.2
