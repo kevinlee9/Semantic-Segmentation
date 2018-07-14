@@ -1,7 +1,5 @@
 # Semantic-Segmentation
-List for useful code and papers
-
-Inspired by JackieZhangdx, see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists. 
+List of useful codes and papers for semantic segmentation(weakly)
 
 ## code
 
@@ -21,10 +19,15 @@ Inspired by JackieZhangdx, see [this](https://github.com/JackieZhangdx/WeakSuper
 
 [resnet38](https://github.com/itijyou/ademxapp)  Wider or Deeper: Revisiting the ResNet Model for Visual Recognition: implemented using MXNET
 
-## models
-[dcsp](https://github.com/arslan-chaudhry/dcsp_segmentation) BMVC2017 59.2
-
 ## papers
+#### random walk
+Learning random-walk label propagation for weakly-supervised semantic segmentation: scribble
+
+Convolutional Random Walk Networks for Semantic Image Segmetation: fully, affinity branch(low level)
+
+Soft Proposal Networks for Weakly Supervised Object Localization: attention, semantic affinity
+
+Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation: image-level, semantic affinity
 
 ## Top works
 #### PASCAL VOC2012
@@ -39,3 +42,6 @@ Inspired by JackieZhangdx, see [this](https://github.com/JackieZhangdx/WeakSuper
 | [GuidedSeg](https://github.com/coallaoh/GuidedLabelling)<sub>CVPR2017</sub> | 55.7 | 56.7 | saliency, TBD|
 
 #### COCO
+
+## Others
+see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists and resources. 
