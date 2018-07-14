@@ -60,9 +60,11 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] ScanComplete: Large-Scale Scene Completion and Semantic Segmentation for 3D Scans
 - [ ] SeGAN: Segmenting and Generating the Invisible
 
+
 #### network +
 - [ ] Learning a Discriminative Feature Network for Semantic Segmentation
 - [ ] Fully Convolutional Adaptation Networks for Semantic Segmentation
+- [ ] Learning to Adapt Structured Output Space for Semantic Segmentation
 - [ ] Context Encoding for Semantic Segmentation
 - [ ] Learned Shape-Tailored Descriptors for Segmentation
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
