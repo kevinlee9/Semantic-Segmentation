@@ -45,3 +45,26 @@ Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly S
 
 ## Others
 see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists and resources. 
+
+## Reading List
+#### adversarial
+- [ ] generative adversial learning towards Fast weakly supervised detection
+- [ ] Adversarial Complementary Learning for Weakly Supervised Object Localization
+- [ ] Weakly Supervised Object Discovery by Generative Adversarial & Ranking Networks: arkiv
+
+####
+- [ ] Learning to Segment Every Thing
+- [ ] Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning
+
+#### generate
+- [ ] ScanComplete: Large-Scale Scene Completion and Semantic Segmentation for 3D Scans
+- [ ] SeGAN: Segmenting and Generating the Invisible
+
+#### network +
+- [ ] Learning a Discriminative Feature Network for Semantic Segmentation
+- [ ] Fully Convolutional Adaptation Networks for Semantic Segmentation
+- [ ] Context Encoding for Semantic Segmentation
+- [ ] Learned Shape-Tailored Descriptors for Segmentation
+- [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
+
+#### urban
