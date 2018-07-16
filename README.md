@@ -55,6 +55,7 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 ####
 - [ ] Learning to Segment Every Thing: semi-supervised, weight transfer function (from bbox parameters to mask parameters)
 - [ ] Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning
+- [ ] Combining Bottom-Up, Top-Down, and Smoothness Cues for Weakly Supervised Image Segmentation: cvpr2018
 
 #### generate
 - [ ] ScanComplete: Large-Scale Scene Completion and Semantic Segmentation for 3D Scans
