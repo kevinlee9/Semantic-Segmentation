@@ -54,13 +54,19 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 
 ####
 - [ ] Learning to Segment Every Thing: semi-supervised, weight transfer function (from bbox parameters to mask parameters)
-- [ ] Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning
-- [ ] Combining Bottom-Up, Top-Down, and Smoothness Cues for Weakly Supervised Image Segmentation: cvpr2018
+- [ ] Simple Does It: Weakly Supervised Instance and Semantic Segmentation: bbox-level, many methods, using graphcut, HED, MCG
+- [ ] Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning: tricky, curriculum learning: image level -> instance level -> pixel level
+- [ ] Combining Bottom-Up, Top-Down, and Smoothness Cues for Weakly Supervised Image Segmentation: cvpr2017
 
 #### generate
 - [ ] ScanComplete: Large-Scale Scene Completion and Semantic Segmentation for 3D Scans
 - [ ] SeGAN: Segmenting and Generating the Invisible
 
+#### webly
+- [ ] Weakly Supervised Semantic Segmentation Based on Web Image Cosegmentation: BMVC2017
+- [ ] Webly Supervised Semantic Segmentation: cvpr 2017
+- [ ] Weakly Supervised Semantic Segmentation using Web-Crawled Videos: Kwak, cvpr2017 
+- [ ] Bootstrapping the Performance of Webly Supervised Semantic Segmentation
 
 #### network +
 - [ ] Learning a Discriminative Feature Network for Semantic Segmentation
