@@ -19,6 +19,11 @@ List of useful codes and papers for semantic segmentation(weakly)
 
 [resnet38](https://github.com/itijyou/ademxapp)  Wider or Deeper: Revisiting the ResNet Model for Visual Recognition: implemented using MXNET
 
+#### to work 
+[BDWSS](https://github.com/ascust/BDWSS) Bootstrapping the Performance of Webly Supervised Semantic Segmentation
+
+[psa](https://github.com/jiwoon-ahn/psa) Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation
+
 ## papers
 #### random walk
 Learning random-walk label propagation for weakly-supervised semantic segmentation: scribble
