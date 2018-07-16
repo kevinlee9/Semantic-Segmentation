@@ -53,7 +53,7 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] Weakly Supervised Object Discovery by Generative Adversarial & Ranking Networks: arkiv
 
 ####
-- [ ] Learning to Segment Every Thing
+- [ ] Learning to Segment Every Thing: semi-supervised, weight transfer function (from bbox parameters to mask parameters)
 - [ ] Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning
 
 #### generate
