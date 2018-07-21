@@ -24,6 +24,12 @@ List of useful codes and papers for semantic segmentation(weakly)
 
 [psa](https://github.com/jiwoon-ahn/psa) Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation
 
+#### SEC
+[original](https://github.com/kolesman/SEC): Caffe  
+[BDSSW](https://github.com/ascust/BDWSS): MXNET  
+[DSRG](https://github.com/speedinghzl/DSRG): Caffe, CAM and DRFI provided  
+[SEC-tensorflow](https://github.com/xtudbxk/SEC-tensorflow): tensorflow version  
+
 ## papers
 #### random walk
 Learning random-walk label propagation for weakly-supervised semantic segmentation: scribble
@@ -45,6 +51,9 @@ Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly S
 | [MCOF](http://3dimage.ee.tsinghua.edu.cn/wx/mcof)<sub>CVPR2018</sub> | 60.3 | 61.2 | iterative, RegionNet(sppx)|
 | [DCSP](https://github.com/arslan-chaudhry/dcsp_segmentation)<sub>BMVC2017</sub> | 58.6 | 59.2 | adversarial, TBD|
 | [GuidedSeg](https://github.com/coallaoh/GuidedLabelling)<sub>CVPR2017</sub> | 55.7 | 56.7 | saliency, TBD|
+| [BDSSW](https://github.com/ascust/BDWSS)<sub>CVPR2018</sub> | 63.0 | 63.9 | webly, filter+enhance|
+
+
 
 #### COCO
 
@@ -85,3 +94,14 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] Exploiting Saliency for Object Segmentation from Image Level Labels
 
 #### urban
+
+#### IJCAI2018(keywords: segmentation, localization)
+- [ ] DEL: Deep Embedding Learning for Efficient Image Segmentation
+- [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters
+- [ ] MEnet: A Metric Expression Network for Salient Object Segmentation
+- [ ] Co-attention CNNs for Unsupervised Object Co-segmentation
+- [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
+- [ ] Virtual-to-Real: Learning to Control in Visual Semantic Segmentation
+- [ ] Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval
+
+
