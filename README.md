@@ -84,6 +84,8 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] Webly Supervised Semantic Segmentation: cvpr 2017
 - [ ] Weakly Supervised Semantic Segmentation using Web-Crawled Videos: Kwak, cvpr2017 
 - [x] Bootstrapping the Performance of Webly Supervised Semantic Segmentation: target + web domain, target model filters web images, web model enhances target model
+- [ ] Learning from Weak and Noisy Labels for Semantic Segmentation: TPAMI 2017
+- [ ] WebSeg: Learning Semantic Segmentation from Web Searches
 
 #### network +
 - [ ] Learning a Discriminative Feature Network for Semantic Segmentation
