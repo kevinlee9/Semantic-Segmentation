@@ -40,6 +40,9 @@ Soft Proposal Networks for Weakly Supervised Object Localization: attention, sem
 
 Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation: image-level, semantic affinity
 
+#### saliency
+Exploiting Saliency for Object Segmentation from Image Level Labels: detailed experiments about localization and expand arch and policy.
+
 ## Top works
 #### PASCAL VOC2012
 
@@ -91,17 +94,17 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
 
 #### Saliency
-- [ ] Exploiting Saliency for Object Segmentation from Image Level Labels
+- [x] Exploiting Saliency for Object Segmentation from Image Level Labels
 
 #### urban
 
 #### IJCAI2018(keywords: segmentation, localization)
 - [ ] DEL: Deep Embedding Learning for Efficient Image Segmentation
 - [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters
-- [ ] MEnet: A Metric Expression Network for Salient Object Segmentation
+- [ ] ~~MEnet: A Metric Expression Network for Salient Object Segmentation~~
 - [ ] Co-attention CNNs for Unsupervised Object Co-segmentation
 - [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
-- [ ] Virtual-to-Real: Learning to Control in Visual Semantic Segmentation
-- [ ] Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval
+- [ ] ~~Virtual-to-Real: Learning to Control in Visual Semantic Segmentation~~
+- [ ] ~~Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval~~
 
 
