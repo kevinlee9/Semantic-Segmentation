@@ -55,8 +55,7 @@ Exploiting Saliency for Object Segmentation from Image Level Labels: detailed ex
 | [DCSP](https://github.com/arslan-chaudhry/dcsp_segmentation)<sub>BMVC2017</sub> | 58.6 | 59.2 | adversarial, TBD|
 | [GuidedSeg](https://github.com/coallaoh/GuidedLabelling)<sub>CVPR2017</sub> | 55.7 | 56.7 | saliency, TBD|
 | [BDSSW](https://github.com/ascust/BDWSS)<sub>CVPR2018</sub> | 63.0 | 63.9 | webly, filter+enhance|
-
-
+| [WegSeg](https://arxiv.org/pdf/1803.09859.pdf)<sub>arkiv</sub> | 63.1 | 63.3 | webly(pure), Noise filter module|
 
 #### COCO
 
@@ -68,6 +67,9 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] generative adversial learning towards Fast weakly supervised detection
 - [ ] Adversarial Complementary Learning for Weakly Supervised Object Localization
 - [ ] Weakly Supervised Object Discovery by Generative Adversarial & Ranking Networks: arkiv
+
+#### localization
+- [ ] Discovering Class-Specific Pixels for Weakly-Supervised Semantic Segmentation
 
 ####
 - [ ] Learning to Segment Every Thing: semi-supervised, weight transfer function (from bbox parameters to mask parameters)
@@ -85,7 +87,7 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] Weakly Supervised Semantic Segmentation using Web-Crawled Videos: Kwak, cvpr2017 
 - [x] Bootstrapping the Performance of Webly Supervised Semantic Segmentation: target + web domain, target model filters web images, web model enhances target model
 - [ ] Learning from Weak and Noisy Labels for Semantic Segmentation: TPAMI 2017
-- [ ] WebSeg: Learning Semantic Segmentation from Web Searches
+- [x] WebSeg: Learning Semantic Segmentation from Web Searches: arkiv, directly learning from keywork retrievaled web images. using saliency and region(MCG with edge)
 
 #### network +
 - [ ] Learning a Discriminative Feature Network for Semantic Segmentation
