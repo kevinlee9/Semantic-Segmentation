@@ -19,6 +19,11 @@ List of useful codes and papers for semantic segmentation(weakly)
 
 [resnet38](https://github.com/itijyou/ademxapp)  Wider or Deeper: Revisiting the ResNet Model for Visual Recognition: implemented using MXNET
 
+[pytorch_deeplab_large_fov](https://github.com/BardOfCodes/pytorch_deeplab_large_fov): deeplab v1
+
+[pytorch-deeplab-resnet](https://github.com/isht7/pytorch-deeplab-resnet)DeepLab resnet v2 model in pytorch
+
+
 #### to work 
 [BDWSS](https://github.com/ascust/BDWSS) Bootstrapping the Performance of Webly Supervised Semantic Segmentation
 
