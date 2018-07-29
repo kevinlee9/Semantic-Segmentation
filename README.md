@@ -118,5 +118,11 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
 - [ ] ~~Virtual-to-Real: Learning to Control in Visual Semantic Segmentation~~
 - [ ] ~~Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval~~
+- [x] Image-level to Pixel-wise Labeling: From Theory to Practice: fully, analysis the effect of image labels on seg results. add a generator(recover original image)
 
+## Methods
+- refine seg results using image-level labels
+- multi-label classification branch
+- gernerative branch(to original image) 
+- crf
 
