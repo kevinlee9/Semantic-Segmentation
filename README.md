@@ -48,6 +48,9 @@ Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly S
 #### saliency
 Exploiting Saliency for Object Segmentation from Image Level Labels: detailed experiments about localization and expand arch and policy.
 
+#### localization
+Attention based Deep Multiple Instance Learning: ICML 2018. cam from MIL perspective view
+
 ## Top works
 #### PASCAL VOC2012
 
@@ -118,7 +121,7 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
 - [ ] ~~Virtual-to-Real: Learning to Control in Visual Semantic Segmentation~~
 - [ ] ~~Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval~~
-- [x] Image-level to Pixel-wise Labeling: From Theory to Practice: fully, analysis the effect of image labels on seg results. add a generator(recover original image)
+- [x] Image-level to Pixel-wise Labeling: From Theory to Practice: fully, analysis the effect of image labels on seg results. add a generator(recover original image). image label(binary, use a threshold small than 0.5, eg:0.25)
 
 ## Methods
 - refine seg results using image-level labels
