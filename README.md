@@ -68,6 +68,7 @@ Attention based Deep Multiple Instance Learning: ICML 2018. cam from MIL perspec
 
 ## Others
 see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists and resources. 
+see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more implementations
 
 ## Reading List
 #### generative
@@ -116,6 +117,10 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 - [x] Exploiting Saliency for Object Segmentation from Image Level Labels: cvpr17
 
 #### urban
+
+#### affinity
+- [x] Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation: image-level, semantic affinity, learn a **network** to predict affinity
+- [x] Adaptive Affinity Field for Semantic Segmentation: eccv2018, semantic affinity. add a pairwise term in seg **loss**(similarity metric: KL divergence), use an adversarial method to determine optimal neighborhood size
 
 #### other useful
 - [ ] Learning to Segment Every Thing: semi-supervised, weight transfer function (from bbox parameters to mask parameters)
