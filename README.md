@@ -75,9 +75,11 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] **Deep dual learning for semantic image segmentation**:cvpr2017, image translation
 - [ ] Semantic Segmentation using Adversarial Networks: NIPS 2016 workshop
 - [ ] Adversarial Learning for Semi-Supervised Semantic Segmentation: BMVC2018
-- [ ] Adversarial Examples for Semantic Image Segmentation: ICLR 2017 workshop
-- [ ] Semi Supervised Semantic Segmentation Using Generative Adversarial Network: ICCV2017
+- [x] Semi and weakly Supervised Semantic Segmentation Using Generative Adversarial Network: ICCV2017, use SegNet as D, treat fake as new class
+  - weakly, use conditionalGan, pixel-level, image-level, generated data are included in loss. performance boosts less when increasing fully data
 - [ ] generative adversarial learning towards Fast weakly supervised detection: cvpr18
+- [ ] Adversarial Examples for Semantic Image Segmentation: ICLR 2017 workshop
+
 
 #### context 
 - [ ] Context Encoding for Semantic Segmentation: cvpr18
