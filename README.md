@@ -71,7 +71,7 @@ see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for 
 see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more implementations
 
 ## Reading List
-#### generative
+#### generative adversarial 
 - [ ] **Deep dual learning for semantic image segmentation**:CVPR2017, image translation
 - [x] Semantic Segmentation using Adversarial Networks, NIPS2016 workshop
   - add gan loss branch, Segnet as generator, D: GT mask or predicted mask
@@ -80,7 +80,6 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [x] Semi and weakly Supervised Semantic Segmentation Using Generative Adversarial Network: ICCV2017, use SegNet as D, treat fake as new class
   - weakly, use conditionalGan, pixel-level, image-level, generated data are included in loss. performance boosts less when increasing fully data
 - [ ] generative adversarial learning towards Fast weakly supervised detection: CVPR2018
-- [ ] Adversarial Examples for Semantic Image Segmentation: ICLR2017 workshop
 
 
 #### context 
@@ -109,6 +108,9 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Adversarial Complementary Learning for Weakly Supervised Object Localization
 - [ ] Weakly Supervised Object Discovery by Generative Adversarial & Ranking Networks: arxiv
 - [ ] Discovering Class-Specific Pixels for Weakly-Supervised Semantic Segmentation
+- [ ] ~~Adversarial Examples for Semantic Image Segmentation: ICLR2017 workshop, adversarial attack~~
+- [ ] ~~On the Robustness of Semantic Segmentation Models to Adversarial Attacks: CVPR2018, adversarial attack~~
+
 
 #### network +
 - [ ] Learning a Discriminative Feature Network for Semantic Segmentation
