@@ -111,6 +111,10 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] ~~Adversarial Examples for Semantic Image Segmentation: ICLR2017 workshop, adversarial attack~~
 - [ ] ~~On the Robustness of Semantic Segmentation Models to Adversarial Attacks: CVPR2018, adversarial attack~~
 
+#### region
+- [ ] Region-Based Convolutional Networks for Accurate Object Detection and Segmentation
+- [ ] Simultaneous Detection and Segmentation, 2014
+- [ ] Feedforward semantic segmentation with zoom-out features: 2015
 
 #### network +
 - [ ] Learning a Discriminative Feature Network for Semantic Segmentation
