@@ -138,6 +138,10 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning: tricky, curriculum learning: image level -> instance level -> pixel level
 - [ ] Combining Bottom-Up, Top-Down, and Smoothness Cues for Weakly Supervised Image Segmentation: CVPR2017
 
+#### application(pixel manipulation)
+- [x] SeGAN: Segmenting and Generating the Invisible: CVPR2018, generate occluded parts
+- [x] Learning Hierarchical Semantic Image Manipulation through Structured Representations: NIPS2018, manipulate image on object-level by modify bbox
+
 #### IJCAI2018(keywords: segmentation, localization)
 - [ ] DEL: Deep Embedding Learning for Efficient Image Segmentation
 - [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters
