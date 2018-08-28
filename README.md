@@ -29,6 +29,8 @@ List of useful codes and papers for semantic segmentation(mainly weakly)
 
 [psa](https://github.com/jiwoon-ahn/psa) Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation
 
+[AdvSemiSeg](https://github.com/hfslyc/AdvSemiSeg) Adversarial Learning for Semi-Supervised Semantic Segmentation
+
 ##### SEC
 [original](https://github.com/kolesman/SEC): Caffe  
 [BDSSW](https://github.com/ascust/BDWSS): MXNET  
