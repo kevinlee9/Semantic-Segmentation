@@ -88,6 +88,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Context Encoding for Semantic Segmentation: CVPR2018
 - [ ] The Role of Context for Object Detection and Semantic Segmentation in the Wild: CVPR2014
 - [ ] Objects as Context for Detecting Their Semantic Parts: CVPR2018
+- [ ] Exploring context with deep structured models for semantic segmentation: TPAMI2017
 
 #### graph
 - [ ] Associating Inter-Image Salient Instances for Weakly Supervised Semantic Segmentation: ECCV2018
@@ -161,7 +162,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 ## Methods
 - refine seg results using image-level labels
 - multi-label classification branch(BDWSS)
-- gernerative branch(to original image) 
+- generative branch(to original image) 
 - crf
 
 ## Common analysis
