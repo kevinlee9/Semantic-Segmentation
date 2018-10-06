@@ -125,7 +125,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Learning to Adapt Structured Output Space for Semantic Segmentation
 - [ ] Learned Shape-Tailored Descriptors for Segmentation
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
-- [x] Semantic Segmentation with Reverse Attention: BMVC2017, add reverse branch, predict the probability of pixel that doesn't belong to the corresponding class. and use attention to combine origin and reverse branch 
+- [x] Semantic Segmentation with Reverse Attention: BMVC2017, equally responses of multi classes(confusion in boudary region). add reverse branch, predict the probability of pixel that doesn't belong to the corresponding class. and use attention to combine origin and reverse branch 
 
 #### Saliency
 - [x] Exploiting Saliency for Object Segmentation from Image Level Labels: CVPR2017
@@ -141,6 +141,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Simple Does It: Weakly Supervised Instance and Semantic Segmentation: bbox-level, many methods, using graphcut, HED, MCG
 - [ ] Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning: tricky, curriculum learning: image level -> instance level -> pixel level
 - [ ] Combining Bottom-Up, Top-Down, and Smoothness Cues for Weakly Supervised Image Segmentation: CVPR2017
+- [x] Improving Weakly-Supervised Object Localization By Micro-Annotation: BMVC2016, object classes always co-occur with same background elements(boat, train). propose a new annotation method. add human annotations to improve localization results of CAM, annotating based on clusters of dense features. each class uses a spectral clustering.(CAM has problem)
 
 #### application(pixel manipulation)
 - [x] SeGAN: Segmenting and Generating the Invisible: CVPR2018, generate occluded parts
