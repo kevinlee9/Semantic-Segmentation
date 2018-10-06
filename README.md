@@ -125,6 +125,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Learning to Adapt Structured Output Space for Semantic Segmentation
 - [ ] Learned Shape-Tailored Descriptors for Segmentation
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
+- [x] Semantic Segmentation with Reverse Attention: BMVC2017, add reverse branch, predict the probability of pixel that doesn't belong to the corresponding class. and use attention to combine origin and reverse branch 
 
 #### Saliency
 - [x] Exploiting Saliency for Object Segmentation from Image Level Labels: CVPR2017
