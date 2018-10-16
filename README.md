@@ -82,10 +82,11 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [x] Semi and weakly Supervised Semantic Segmentation Using Generative Adversarial Network: ICCV2017, use SegNet as D, treat fake as new class
   - weakly, use conditionalGan, pixel-level, image-level, generated data are included in loss. performance boosts less when increasing fully data
 - [ ] generative adversarial learning towards Fast weakly supervised detection: CVPR2018
+- [x] Adaptive Affinity Field for Semantic Segmentation: ECCV2018, semantic affinity. add a pairwise term in seg **loss**(similarity metric: KL divergence), use an adversarial method to determine optimal neighborhood size
 
 
 #### context 
-- [ ] Context Encoding for Semantic Segmentation: CVPR2018
+- [x] Context Encoding for Semantic Segmentation: CVPR2018
 - [ ] The Role of Context for Object Detection and Semantic Segmentation in the Wild: CVPR2014
 - [ ] Objects as Context for Detecting Their Semantic Parts: CVPR2018
 - [ ] Exploring context with deep structured models for semantic segmentation: TPAMI2017
@@ -126,6 +127,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Learned Shape-Tailored Descriptors for Segmentation
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
 - [x] Semantic Segmentation with Reverse Attention: BMVC2017, equally responses of multi classes(confusion in boudary region). add reverse branch, predict the probability of pixel that doesn't belong to the corresponding class. and use attention to combine origin and reverse branch 
+- [] Deep Clustering for Unsupervised Learning of Visual Features
 
 #### Saliency
 - [x] Exploiting Saliency for Object Segmentation from Image Level Labels: CVPR2017
@@ -151,7 +153,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] DEL: Deep Embedding Learning for Efficient Image Segmentation
 - [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters
 - [ ] ~~MEnet: A Metric Expression Network for Salient Object Segmentation~~
-- [ ] Co-attention CNNs for Unsupervised Object Co-segmentation
+- [x] Co-attention CNNs for Unsupervised Object Co-segmentation
 - [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
 - [ ] ~~Virtual-to-Real: Learning to Control in Visual Semantic Segmentation~~
 - [ ] ~~Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval~~
@@ -159,7 +161,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 
 
 #### ECCV2018
-
+- [ ] Associating Inter-Image Salient Instances for Weakly Supervised Semantic Segmetation
 
 ## Methods
 - refine seg results using image-level labels
