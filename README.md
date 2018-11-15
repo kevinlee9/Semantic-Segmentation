@@ -140,9 +140,13 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
 - [x] Semantic Segmentation with Reverse Attention: BMVC2017, equally responses of multi classes(confusion in boudary region). add reverse branch, predict the probability of pixel that doesn't belong to the corresponding class. and use attention to combine origin and reverse branch 
 - [x] Deep Clustering for Unsupervised Learning of Visual Features, ECCV2018. use assignments of knn as supervision to update weights of network 
+
+#### arch
+- [ ] The Devil is in the Decoders, BMVC2017
 - [x] Dilated Residual Networks, CVPR2017. Dilated structure design for classification and localization.
 - [x] Understanding Convolution for Semantic Segmentation, WACV2018. hybrid dilated convolution(2-2-2 -> 1-2-3)
 - [x] Smoothed Dilated Convolutions for Improved Dense Prediction, KDD2018. separable and share conv(for smoothing) + dilated conv
+- [x] Deeplab v1, v2, v3, v3+
 
 #### Saliency
 - [x] Exploiting Saliency for Object Segmentation from Image Level Labels: CVPR2017
