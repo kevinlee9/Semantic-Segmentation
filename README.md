@@ -80,6 +80,9 @@ Attention based Deep Multiple Instance Learning: ICML 2018. cam from MIL perspec
 ## Others
 see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists and resources. 
 see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more implementations
+#### tutorial
+- Unsupervised Visual Learning Tutorial. *CVPR 2018* [[part 1]](https://www.youtube.com/watch?v=gSqmUOAMwcc) [[part 2]](https://www.youtube.com/watch?v=BijK_US6A0w)
+- Weakly Supervised Learning for Computer Vision. *CVPR 2018* [[web]](https://hbilen.github.io/wsl-cvpr18.github.io/) [[part 1]](https://www.youtube.com/watch?v=bXfZFmE8cjo) [[part 2]](https://www.youtube.com/watch?v=FetNp6f19IM)
 
 ## Reading List
 #### generative adversarial 
