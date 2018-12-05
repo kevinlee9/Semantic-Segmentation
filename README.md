@@ -101,10 +101,14 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 
 
 #### context 
-- [x] Context Encoding for Semantic Segmentation: CVPR2018
+- [x] Context Encoding for Semantic Segmentation: CVPR2018. use TEN
 - [ ] The Role of Context for Object Detection and Semantic Segmentation in the Wild: CVPR2014
 - [ ] Objects as Context for Detecting Their Semantic Parts: CVPR2018
 - [ ] Exploring context with deep structured models for semantic segmentation: TPAMI2017
+- [ ] dilated convolution
+- [ ] Deep TEN: Texture encoding network !!: CVPR2017. A global context vector, pooled from all spatial positions, can be concatenated to local features
+- [ ]  Refinenet: Multi-path refinement networks for high-resolution semantic segmentation: CVPR2017. local features across different scales can be fused to encode global context
+- [x] Non-local neural networks: CVPR2018. a densely connected graph with pairwise edges between all pixels
 
 #### graph
 - [ ] Associating Inter-Image Salient Instances for Weakly Supervised Semantic Segmentation: ECCV2018
