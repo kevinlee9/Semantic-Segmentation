@@ -23,6 +23,8 @@ List of useful codes and papers for semantic segmentation(mainly weakly)
 
 [pytorch-deeplab-resnet](https://github.com/isht7/pytorch-deeplab-resnet)DeepLab resnet v2 model in pytorch
 
+[DeepLab-ResNet-Pytorch](https://github.com/speedinghzl/Pytorch-Deeplab) Deeplab v3 model in pytorch, 
+
 
 #### following 
 [BDWSS](https://github.com/ascust/BDWSS) Bootstrapping the Performance of Webly Supervised Semantic Segmentation
