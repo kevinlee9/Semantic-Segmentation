@@ -89,6 +89,12 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 #### priors
 - Superpixels: An Evaluation of the State-of-the-Art [link](https://github.com/davidstutz/superpixel-benchmark)
 
+#### post processing
+listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2018CAC.pdf)
+- Otsu’s method
+- GrabCut
+- CRF    
+
 ## Reading List
 #### generative adversarial 
 - [ ] **Deep dual learning for semantic image segmentation**:CVPR2017, image translation
@@ -172,6 +178,7 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning: tricky, curriculum learning: image level -> instance level -> pixel level
 - [ ] Combining Bottom-Up, Top-Down, and Smoothness Cues for Weakly Supervised Image Segmentation: CVPR2017
 - [x] Improving Weakly-Supervised Object Localization By Micro-Annotation: BMVC2016, object classes always co-occur with same background elements(boat, train). propose a new annotation method. add human annotations to improve localization results of CAM, annotating based on clusters of dense features. each class uses a spectral clustering.(CAM has problem)
+- [x] Co-attention CNNs for Unsupervised Object Co-segmentation: IJCAI 2018
 
 #### application(pixel manipulation)
 - [x] SeGAN: Segmenting and Generating the Invisible: CVPR2018, generate occluded parts
@@ -181,7 +188,6 @@ see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more im
 - [ ] DEL: Deep Embedding Learning for Efficient Image Segmentation
 - [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters
 - [ ] ~~MEnet: A Metric Expression Network for Salient Object Segmentation~~
-- [x] Co-attention CNNs for Unsupervised Object Co-segmentation
 - [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
 - [ ] ~~Virtual-to-Real: Learning to Control in Visual Semantic Segmentation~~
 - [ ] ~~Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval~~
