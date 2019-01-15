@@ -149,12 +149,13 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 
 #### network +
 - [ ] Learning a Discriminative Feature Network for Semantic Segmentation
-- [ ] Fully Convolutional Adaptation Networks for Semantic Segmentation
-- [ ] Learning to Adapt Structured Output Space for Semantic Segmentation
 - [ ] Learned Shape-Tailored Descriptors for Segmentation
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
+- [ ] Fully Convolutional Adaptation Networks for Semantic Segmentation
+- [ ] Learning to Adapt Structured Output Space for Semantic Segmentation
 - [x] Semantic Segmentation with Reverse Attention: BMVC2017, equally responses of multi classes(confusion in boudary region). add reverse branch, predict the probability of pixel that doesn't belong to the corresponding class. and use attention to combine origin and reverse branch 
 - [x] Deep Clustering for Unsupervised Learning of Visual Features, ECCV2018. use assignments of knn as supervision to update weights of network 
+- [x] DEL: Deep Embedding Learning for Efficient Image Segmentation, IJCAI 2018. use spp embedding as init probs to do image segmentation
 
 #### arch
 - [ ] The Devil is in the Decoders, BMVC2017
@@ -185,7 +186,6 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [x] Learning Hierarchical Semantic Image Manipulation through Structured Representations: NIPS2018, manipulate image on object-level by modify bbox
 
 #### IJCAI2018(keywords: segmentation, localization)
-- [ ] DEL: Deep Embedding Learning for Efficient Image Segmentation
 - [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters
 - [ ] ~~MEnet: A Metric Expression Network for Salient Object Segmentation~~
 - [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
