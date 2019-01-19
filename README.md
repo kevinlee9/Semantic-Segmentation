@@ -158,8 +158,8 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [x] DEL: Deep Embedding Learning for Efficient Image Segmentation, IJCAI 2018. use spp embedding as init probs to do image segmentation
 
 #### regularizer
-- [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
-- [ ] Regularized Losses (rloss) for Weakly-supervised CNN Segmentation
+- [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation(https://arxiv.org/pdf/1804.01346.pdf)
+- [ ] Regularized Losses (rloss) for Weakly-supervised CNN Segmentation(https://github.com/meng-tang/rloss)
 
 #### evaluation measure
 - [ ] [Optimizing Intersection-Over-Union in Deep Neural Networks for Image Segmentation](https://www.cs.umanitoba.ca/~ywang/papers/isvc16.pdf)
