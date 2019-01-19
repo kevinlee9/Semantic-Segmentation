@@ -157,6 +157,15 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [x] Deep Clustering for Unsupervised Learning of Visual Features, ECCV2018. use assignments of knn as supervision to update weights of network 
 - [x] DEL: Deep Embedding Learning for Efficient Image Segmentation, IJCAI 2018. use spp embedding as init probs to do image segmentation
 
+#### regularizer
+- [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
+- [ ] Regularized Losses (rloss) for Weakly-supervised CNN Segmentation
+
+#### evaluation measure
+- [ ] [Optimizing Intersection-Over-Union in Deep Neural Networks for Image Segmentation](https://www.cs.umanitoba.ca/~ywang/papers/isvc16.pdf)
+- [ ] [The Lovasz-Softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks](https://arxiv.org/pdf/1705.08790.pdf)
+- [ ] [What is a good evaluation measure for semantic segmentation?](http://www.bmva.org/bmvc/2013/Papers/paper0032/paper0032.pdf)
+
 #### arch
 - [ ] The Devil is in the Decoders, BMVC2017
 - [x] Dilated Residual Networks, CVPR2017. Dilated structure design for classification and localization.
