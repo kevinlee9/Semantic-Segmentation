@@ -81,7 +81,8 @@ Attention based Deep Multiple Instance Learning: ICML 2018. cam from MIL perspec
 
 ## Others
 see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists and resources. 
-see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more implementations
+see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more implementations  
+a good architecture summary paper:[Learning a Discriminative Feature Network for Semantic Segmentation](https://arxiv.org/pdf/1804.09337.pdf)
 #### tutorial
 - Unsupervised Visual Learning Tutorial. *CVPR 2018* [[part 1]](https://www.youtube.com/watch?v=gSqmUOAMwcc) [[part 2]](https://www.youtube.com/watch?v=BijK_US6A0w)
 - Weakly Supervised Learning for Computer Vision. *CVPR 2018* [[web]](https://hbilen.github.io/wsl-cvpr18.github.io/) [[part 1]](https://www.youtube.com/watch?v=bXfZFmE8cjo) [[part 2]](https://www.youtube.com/watch?v=FetNp6f19IM)
@@ -156,6 +157,7 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [x] Semantic Segmentation with Reverse Attention: BMVC2017, equally responses of multi classes(confusion in boudary region). add reverse branch, predict the probability of pixel that doesn't belong to the corresponding class. and use attention to combine origin and reverse branch 
 - [x] Deep Clustering for Unsupervised Learning of Visual Features, ECCV2018. use assignments of knn as supervision to update weights of network 
 - [x] DEL: Deep Embedding Learning for Efficient Image Segmentation, IJCAI 2018. use spp embedding as init probs to do image segmentation
+- [x] Learning a Discriminative Feature Network for Semantic Segmentation, CVPR2018, Smoother network: multi-scale+global context(FPN with channel atention), Broder Network: focal loss for boundary
 
 #### regularizer
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation(https://arxiv.org/pdf/1804.01346.pdf)
