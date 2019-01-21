@@ -137,11 +137,14 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
   - saliency can not handle complex images, so BMVC2017 uses coseg instead
 
 #### adversarial(framework)
-- [ ] Adversarial Complementary Learning for Weakly Supervised Object Localization
 - [ ] Weakly Supervised Object Discovery by Generative Adversarial & Ranking Networks: arxiv
 - [ ] Discovering Class-Specific Pixels for Weakly-Supervised Semantic Segmentation
 - [ ] ~~Adversarial Examples for Semantic Image Segmentation: ICLR2017 workshop, adversarial attack~~
 - [ ] ~~On the Robustness of Semantic Segmentation Models to Adversarial Attacks: CVPR2018, adversarial attack~~
+
+#### localization
+- [x] Adversarial Complementary Learning for Weakly Supervised Object Localization, CVPR2018. two branchs, remove high activations from feature map. [code](https://github.com/xiaomengyc/ACoL)
+
 
 #### region
 - [ ] Region-Based Convolutional Networks for Accurate Object Detection and Segmentation
@@ -157,11 +160,11 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [x] Semantic Segmentation with Reverse Attention: BMVC2017, equally responses of multi classes(confusion in boudary region). add reverse branch, predict the probability of pixel that doesn't belong to the corresponding class. and use attention to combine origin and reverse branch 
 - [x] Deep Clustering for Unsupervised Learning of Visual Features, ECCV2018. use assignments of knn as supervision to update weights of network 
 - [x] DEL: Deep Embedding Learning for Efficient Image Segmentation, IJCAI 2018. use spp embedding as init probs to do image segmentation
-- [x] Learning a Discriminative Feature Network for Semantic Segmentation, CVPR2018, Smoother network: multi-scale+global context(FPN with channel atention), Broder Network: focal loss for boundary
+- [x] Learning a Discriminative Feature Network for Semantic Segmentation, CVPR2018, Smoother network: multi-scale+global context(FPN with channel atention), Broder Network: focal loss for boundary. [code?](https://github.com/YuhuiMa/DFN-tensorflow)
 
 #### regularizer
-- [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation(https://arxiv.org/pdf/1804.01346.pdf)
-- [ ] Regularized Losses (rloss) for Weakly-supervised CNN Segmentation(https://github.com/meng-tang/rloss)
+- [ ] [Normalized Cut Loss for Weakly-Supervised CNN Segmentation](https://arxiv.org/pdf/1804.01346.pdf)
+- [ ] [Regularized Losses for Weakly-supervised CNN Segmentation](https://github.com/meng-tang/rloss)
 
 #### evaluation measure
 - [ ] [Optimizing Intersection-Over-Union in Deep Neural Networks for Image Segmentation](https://www.cs.umanitoba.ca/~ywang/papers/isvc16.pdf)
