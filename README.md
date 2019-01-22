@@ -89,6 +89,7 @@ a good architecture summary paper:[Learning a Discriminative Feature Network for
 
 #### priors
 - Superpixels: An Evaluation of the State-of-the-Art [link](https://github.com/davidstutz/superpixel-benchmark)
+- Superpixel based Continuous Conditional Random Field Neural Network for Semantic Segmentation [link](https://www.sciencedirect.com/science/article/pii/S0925231219300281)
 
 #### post processing
 listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2018CAC.pdf)
@@ -141,6 +142,7 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [ ] Discovering Class-Specific Pixels for Weakly-Supervised Semantic Segmentation
 - [ ] ~~Adversarial Examples for Semantic Image Segmentation: ICLR2017 workshop, adversarial attack~~
 - [ ] ~~On the Robustness of Semantic Segmentation Models to Adversarial Attacks: CVPR2018, adversarial attack~~
+
 
 #### localization
 - [x] Adversarial Complementary Learning for Weakly Supervised Object Localization, CVPR2018. two branchs, remove high activations from feature map. [code](https://github.com/xiaomengyc/ACoL)
