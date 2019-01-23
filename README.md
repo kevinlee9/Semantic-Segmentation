@@ -89,6 +89,7 @@ a good architecture summary paper:[Learning a Discriminative Feature Network for
 
 #### priors
 - Superpixels: An Evaluation of the State-of-the-Art [link](https://github.com/davidstutz/superpixel-benchmark)
+- Learning Superpixels with Segmentation-Aware Affinity Loss[link](http://jankautz.com/publications/LearningSuperpixels_CVPR2018.pdf)
 - Superpixel based Continuous Conditional Random Field Neural Network for Semantic Segmentation [link](https://www.sciencedirect.com/science/article/pii/S0925231219300281)
 
 #### post processing
@@ -146,6 +147,11 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 
 #### localization
 - [x] Adversarial Complementary Learning for Weakly Supervised Object Localization, CVPR2018. two branchs, remove high activations from feature map. [code](https://github.com/xiaomengyc/ACoL)
+- [ ] Self-Erasing Network for Integral Object Attention， NIPS2018
+
+#### spp
+- [ ] Superpixel convolutional networks using bilateral inceptions
+- [x] Learning Superpixels with Segmentation-Aware Affinity Loss: good intro for superpixel algs.
 
 
 #### region
