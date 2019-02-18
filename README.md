@@ -60,13 +60,17 @@ Attention based Deep Multiple Instance Learning: ICML 2018. cam from MIL perspec
 | ------------ | ---------- | ---------- | ---------- |
 | [GraphPartition](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 63.6 | 64.5 | TBD |
 | [DSRG](https://github.com/speedinghzl/DSRG)<sub>CVPR2018</sub> | 61.4 | 63.2 | deep seeded region growing, resnet-lfov\|vgg-aspp  |
-| [psa](https://github.com/jiwoon-ahn/psa)<sub>CVPR2018</sub> | **61.7** | **63.7** | pixel affinity network, resnet38 |
+| [psa](https://github.com/jiwoon-ahn/psa)<sub>CVPR2018</sub> | 61.7 | 63.7 | pixel affinity network, resnet38 |
 | [MDC](https://arxiv.org/pdf/1805.04574.pdf)<sub>CVPR2018</sub> | 60.4 | 60.8 | multi-dilated convolution, vgg-lfov |
 | [MCOF](http://3dimage.ee.tsinghua.edu.cn/wx/mcof)<sub>CVPR2018</sub> | 60.3 | 61.2 | iterative, RegionNet(sppx), resnet-lfov |
 | [DCSP](https://github.com/arslan-chaudhry/dcsp_segmentation)<sub>BMVC2017</sub> | 58.6 | 59.2 | adversarial, TBD|
 | [GuidedSeg](https://github.com/coallaoh/GuidedLabelling)<sub>CVPR2017</sub> | 55.7 | 56.7 | saliency, TBD|
 | [BDSSW](https://github.com/ascust/BDWSS)<sub>CVPR2018</sub> | 63.0 | 63.9 | webly, filter+enhance|
 | [WegSeg](https://arxiv.org/pdf/1803.09859.pdf)<sub>arxiv</sub> | 63.1 | 63.3 | webly(pure), Noise filter module|
+| [SeeNet](https://arxiv.org/abs/1810.09821)<sub>NIPS2018</sub> | 63.1 | 62.8 | based on DCSP |
+| [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 63.6 | 64.5 | graph partition|
+| [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 64.5 | 65.6 | use simple ImageNet dataset|
+| [CIAN](https://arxiv.org/abs/1811.10842)<sub>arxiv</sub> | 64.1 | 64.7 | cross image affinity network|
 
 ##### VOC12 label quality
 | method | vgg-bb | resnet-bb       |  notes |
