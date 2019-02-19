@@ -192,6 +192,10 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 
 #### Saliency
 - [x] Exploiting Saliency for Object Segmentation from Image Level Labels: CVPR2017
+- [x] Discovering Class-Specific Pixels for Weakly-Supervised Semantic Segmentation: BMVC2017
+  - combine saliency(off-shelf) and CAM to get cues, use harmonic mean function
+  - adapt CAM from head of Segmentation Network
+  - use erasing to get multiple objects' saliency
 
 #### urban
 
