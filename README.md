@@ -136,6 +136,7 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 
 #### localization
 - [x] Adversarial Complementary Learning for Weakly Supervised Object Localization, CVPR2018. two branchs, remove high activations from feature map. [code](https://github.com/xiaomengyc/ACoL)
+- [x] [Tell me where to look: Guided Attention Inference Network](https://arxiv.org/pdf/1802.10171.pdf), CVPR2018. origin image soft erasing(CAM after sigmoid as attention) -> end2end training, force erased images have zero activation
 - [x] Self-Erasing Network for Integral Object Attention， NIPS2018: prohibit attentions from spreading to unexpected background regions.
   - cam -> tenary mask(attention, background, potential)
   - self erasing only in attention + potential region(**sign flip in background region** instead of setting to 0 simply)
