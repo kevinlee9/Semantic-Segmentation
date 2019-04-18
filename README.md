@@ -25,19 +25,16 @@ List of useful codes and papers for semantic segmentation(mainly weakly)
 
 [DeepLab-ResNet-Pytorch](https://github.com/speedinghzl/Pytorch-Deeplab) Deeplab v3 model in pytorch, 
 
-
-#### following 
 [BDWSS](https://github.com/ascust/BDWSS) Bootstrapping the Performance of Webly Supervised Semantic Segmentation
 
 [psa](https://github.com/jiwoon-ahn/psa) Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation
 
-[AdvSemiSeg](https://github.com/hfslyc/AdvSemiSeg) Adversarial Learning for Semi-Supervised Semantic Segmentation
+[DSRG](https://github.com/speedinghzl/DSRG): Caffe, CAM and DRFI provided 
 
 ##### SEC
-[original](https://github.com/kolesman/SEC): Caffe  
-[BDSSW](https://github.com/ascust/BDWSS): MXNET  
-[DSRG](https://github.com/speedinghzl/DSRG): Caffe, CAM and DRFI provided  
-[SEC-tensorflow](https://github.com/xtudbxk/SEC-tensorflow): tensorflow version  
+- [original](https://github.com/kolesman/SEC): Caffe  
+- [BDSSW](https://github.com/ascust/BDWSS): MXNET  
+- [SEC-tensorflow](https://github.com/xtudbxk/SEC-tensorflow): tensorflow  
 
 ## papers
 #### random walk
