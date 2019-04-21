@@ -201,6 +201,14 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [ ] ScanComplete: Large-Scale Scene Completion and Semantic Segmentation for 3D Scans
 - [ ] SeGAN: Segmenting and Generating the Invisible
 
+#### few shot 
+- [ ] One-shot learning for semantic segmentation, BMVC2017
+- [ ] Conditional networks for few-shot semantic segmentation, ICLR2018 Workshop
+- [ ] Few-Shot Segmentation Propagation with Guided Networks, preprint
+- [ ] Few-Shot Semantic Segmentation with Prototype Learning, BMVC2018
+- [ ] CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning, CVPR2019
+- [ ] One-Shot Segmentation in Clutter, ICML 2018
+
 #### other useful
 - [ ] Learning to Segment Every Thing: semi-supervised, weight transfer function (from bbox parameters to mask parameters)
 - [ ] Simple Does It: Weakly Supervised Instance and Semantic Segmentation: bbox-level, many methods, using graphcut, HED, MCG
@@ -215,10 +223,7 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 
 #### IJCAI2018(keywords: segmentation, localization)
 - [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters
-- [ ] ~~MEnet: A Metric Expression Network for Salient Object Segmentation~~
 - [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
-- [ ] ~~Virtual-to-Real: Learning to Control in Visual Semantic Segmentation~~
-- [ ] ~~Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval~~
 - [x] Image-level to Pixel-wise Labeling: From Theory to Practice: fully, analysis the effect of image labels on seg results. add a generator(recover original image). image label(binary, use a threshold small than 0.5, eg:0.25)
 
 ## Methods
