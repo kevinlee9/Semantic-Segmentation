@@ -57,4 +57,6 @@ Convolutional Simplex Projection Network for Weakly Supervised Semantic Segmenta
 #### Weakly-Instance
 
 
+#### Overhaed Imaginary
+Self-supervision-for-segmenting-overhead-imagery
 
