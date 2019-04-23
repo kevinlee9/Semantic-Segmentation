@@ -1,7 +1,65 @@
 # Semantic-Segmentation
 List of useful codes and papers for semantic segmentation(mainly weakly)
 
-## code
+- [Semantic-Segmentation](#semantic-segmentation)
+  * [Top Works](#top-works)
+      - [PASCAL VOC2012](#pascal-voc2012)
+      - [COCO](#coco)
+  * [Codes](#codes)
+  * [Others](#others)
+      - [tutorial](#tutorial)
+      - [priors](#priors)
+      - [diffusion](#diffusion)
+      - [analysis](#analysis)
+      - [post processing](#post-processing)
+      - [common methods](#common-methods)
+  * [Reading List](#reading-list)
+      - [context](#context)
+      - [graph](#graph)
+      - [webly](#webly)
+      - [Saliency](#saliency)
+      - [localization](#localization)
+      - [spp](#spp)
+      - [affinity](#affinity)
+      - [region](#region)
+      - [network](#network)
+      - [regularizer](#regularizer)
+      - [evaluation measure](#evaluation-measure)
+      - [arch](#arch)
+      - [generative adversarial](#generative-adversarial)
+      - [scene understanding](#scene-understanding)
+      - [other useful](#other-useful)
+      - [application](#application)
+  * [Related Tasks](#related-tasks)
+      - [Few-shot segmentation](#few-shot-segmentation)
+      - [Weakly-supervised Instance Segmentation](#weakly-supervised-instance-segmentation)
+      - [Weakly-supervised Panoptic Segmentation](#weakly-supervised-panoptic-segmentation)
+
+            
+## Top Works
+#### PASCAL VOC2012
+
+| method | val | test       |  notes |
+| ------------ | ---------- | ---------- | ---------- |
+| [DSRG](https://github.com/speedinghzl/DSRG)<sub>CVPR2018</sub> | 61.4 | 63.2 | deep seeded region growing, resnet-lfov\|vgg-aspp  |
+| [psa](https://github.com/jiwoon-ahn/psa)<sub>CVPR2018</sub> | 61.7 | 63.7 | pixel affinity network, resnet38 |
+| [MDC](https://arxiv.org/pdf/1805.04574.pdf)<sub>CVPR2018</sub> | 60.4 | 60.8 | multi-dilated convolution, vgg-lfov |
+| [MCOF](http://3dimage.ee.tsinghua.edu.cn/wx/mcof)<sub>CVPR2018</sub> | 60.3 | 61.2 | iterative, RegionNet(sppx), resnet-lfov |
+| [GAIN](https://arxiv.org/abs/1802.10171.pdf)<sub>CVPR2018</sub> |  55.3 |  56.8 | |
+| [DCSP](https://github.com/arslan-chaudhry/dcsp_segmentation)<sub>BMVC2017</sub> | **58.6** | **59.2** | adversarial for saliency, and generate cues by cam+saliency(harmonic mean)|
+| [GuidedSeg](https://github.com/coallaoh/GuidedLabelling)<sub>CVPR2017</sub> | 55.7 | 56.7 | saliency, TBD|
+| [BDSSW](https://github.com/ascust/BDWSS)<sub>CVPR2018</sub> | 63.0 | 63.9 | webly, filter+enhance|
+| [WegSeg](https://arxiv.org/pdf/1803.09859.pdf)<sub>arxiv</sub> | 63.1 | 63.3 | webly(pure), Noise filter module|
+| [SeeNet](https://arxiv.org/abs/1810.09821)<sub>NIPS2018</sub> | 63.1 | 62.8 | based on DCSP |
+| [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 63.6 | 64.5 | graph partition|
+| [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 64.5 | 65.6 | use simple ImageNet dataset additionally|
+| [CIAN](https://arxiv.org/abs/1811.10842)<sub>arxiv</sub> | 64.1 | 64.7 | cross image affinity network|
+| [FickleNet](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | **64.9** | **65.3** | use dropout (a generalization of dilated convolution)|
+
+#### COCO
+
+
+## Codes
 
 [pytorch-segmentation-detection](https://github.com/warmspringwinds/pytorch-segmentation-detection) a library for dense inference and training of Convolutional Neural Networks, 68.0%
 
@@ -31,56 +89,10 @@ List of useful codes and papers for semantic segmentation(mainly weakly)
 
 [DSRG](https://github.com/speedinghzl/DSRG): Caffe, CAM and DRFI provided 
 
-##### SEC
-- [original](https://github.com/kolesman/SEC): Caffe  
-- [BDSSW](https://github.com/ascust/BDWSS): MXNET  
-- [SEC-tensorflow](https://github.com/xtudbxk/SEC-tensorflow): tensorflow  
-
-## papers
-#### random walk
-Learning random-walk label propagation for weakly-supervised semantic segmentation: scribble
-
-Convolutional Random Walk Networks for Semantic Image Segmetation: fully, affinity branch(low level)
-
-Soft Proposal Networks for Weakly Supervised Object Localization: attention, semantic affinity
-
-Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation: image-level, semantic affinity
-
-#### Analysis
-image level to pixel wise labeling: from theory to practice: IJCAI 2018 analysis the effectiveness of class-level labels for segmentation(GT, predicted)
-Attention based Deep Multiple Instance Learning: ICML 2018. cam from MIL perspective view
- 
-## Top works
-#### PASCAL VOC2012
-
-| method | val | test       |  notes |
-| ------------ | ---------- | ---------- | ---------- |
-| [DSRG](https://github.com/speedinghzl/DSRG)<sub>CVPR2018</sub> | 61.4 | 63.2 | deep seeded region growing, resnet-lfov\|vgg-aspp  |
-| [psa](https://github.com/jiwoon-ahn/psa)<sub>CVPR2018</sub> | 61.7 | 63.7 | pixel affinity network, resnet38 |
-| [MDC](https://arxiv.org/pdf/1805.04574.pdf)<sub>CVPR2018</sub> | 60.4 | 60.8 | multi-dilated convolution, vgg-lfov |
-| [MCOF](http://3dimage.ee.tsinghua.edu.cn/wx/mcof)<sub>CVPR2018</sub> | 60.3 | 61.2 | iterative, RegionNet(sppx), resnet-lfov |
-| [GAIN](https://arxiv.org/abs/1802.10171.pdf)<sub>CVPR2018</sub> |  55.3 |  56.8 | |
-| [DCSP](https://github.com/arslan-chaudhry/dcsp_segmentation)<sub>BMVC2017</sub> | **58.6** | **59.2** | adversarial for saliency, and generate cues by cam+saliency(harmonic mean)|
-| [GuidedSeg](https://github.com/coallaoh/GuidedLabelling)<sub>CVPR2017</sub> | 55.7 | 56.7 | saliency, TBD|
-| [BDSSW](https://github.com/ascust/BDWSS)<sub>CVPR2018</sub> | 63.0 | 63.9 | webly, filter+enhance|
-| [WegSeg](https://arxiv.org/pdf/1803.09859.pdf)<sub>arxiv</sub> | 63.1 | 63.3 | webly(pure), Noise filter module|
-| [SeeNet](https://arxiv.org/abs/1810.09821)<sub>NIPS2018</sub> | 63.1 | 62.8 | based on DCSP |
-| [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 63.6 | 64.5 | graph partition|
-| [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 64.5 | 65.6 | use simple ImageNet dataset additionally|
-| [CIAN](https://arxiv.org/abs/1811.10842)<sub>arxiv</sub> | 64.1 | 64.7 | cross image affinity network|
-| [FickleNet](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | **64.9** | **65.3** | use dropout (a generalization of dilated convolution)|
-
-
-##### VOC12 label quality
-| method | vgg-bb | resnet-bb       |  notes |
-| ------------ | ---------- | ---------- | ---------- |
-| [DSRG](https://github.com/speedinghzl/DSRG)<sub>CVPR2018</sub> | 57.6 | unknown | deep seeded region growing  |
-| [psa](https://github.com/jiwoon-ahn/psa)<sub>CVPR2018</sub> | x | 58.7(res38) | pixel affinity network |
-| [MDC](https://arxiv.org/pdf/1805.04574.pdf)<sub>CVPR2018</sub> | x | x | multi-dilated convolution, not provided |
-| [MCOF](http://3dimage.ee.tsinghua.edu.cn/wx/mcof)<sub>CVPR2018</sub> | 56.2 | 60.3 | after 5 iterative process, RegionNet(bootstrapping)|
-
-
-#### COCO
+- SEC
+  - [original](https://github.com/kolesman/SEC): Caffe  
+  - [BDSSW](https://github.com/ascust/BDWSS): MXNET
+  - [SEC-tensorflow](https://github.com/xtudbxk/SEC-tensorflow): tensorflow  
 
 ## Others
 see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists and resources. 
@@ -95,11 +107,30 @@ a good architecture summary paper:[Learning a Discriminative Feature Network for
 - Learning Superpixels with Segmentation-Aware Affinity Loss[link](http://jankautz.com/publications/LearningSuperpixels_CVPR2018.pdf)
 - Superpixel based Continuous Conditional Random Field Neural Network for Semantic Segmentation [link](https://www.sciencedirect.com/science/article/pii/S0925231219300281)
 
+#### diffusion
+Learning random-walk label propagation for weakly-supervised semantic segmentation: scribble
+
+Convolutional Random Walk Networks for Semantic Image Segmetation: fully, affinity branch(low level)
+
+Soft Proposal Networks for Weakly Supervised Object Localization: attention, semantic affinity
+
+Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation: image-level, semantic affinity
+
+#### analysis
+image level to pixel wise labeling: from theory to practice: IJCAI 2018 analysis the effectiveness of class-level labels for segmentation(GT, predicted)
+Attention based Deep Multiple Instance Learning: ICML 2018. CAM from MIL perspective view
+
 #### post processing
 listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2018CAC.pdf)
 - Otsu’s method
 - GrabCut
 - CRF    
+
+#### common methods
+- refine segmentation results using image-level labels
+- multi-label classification branch(BDWSS)
+- generative branch(to original image) 
+- crf
 
 ## Reading List
 
@@ -158,7 +189,7 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [ ] Simultaneous Detection and Segmentation, 2014
 - [ ] Feedforward semantic segmentation with zoom-out features: 2015
 
-#### network +
+#### network
 - [ ] Learned Shape-Tailored Descriptors for Segmentation
 - [ ] Normalized Cut Loss for Weakly-Supervised CNN Segmentation
 - [ ] Fully Convolutional Adaptation Networks for Semantic Segmentation
@@ -196,18 +227,9 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [ ] generative adversarial learning towards Fast weakly supervised detection: CVPR2018
 - [x] Adaptive Affinity Field for Semantic Segmentation: ECCV2018, semantic affinity. add a pairwise term in seg **loss**(similarity metric: KL divergence), use an adversarial method to determine optimal neighborhood size
 
-
 #### scene understanding
 - [ ] ScanComplete: Large-Scale Scene Completion and Semantic Segmentation for 3D Scans
 - [ ] SeGAN: Segmenting and Generating the Invisible
-
-#### few shot 
-- [ ] One-shot learning for semantic segmentation, BMVC2017
-- [ ] Conditional networks for few-shot semantic segmentation, ICLR2018 Workshop
-- [ ] Few-Shot Segmentation Propagation with Guided Networks, preprint
-- [ ] Few-Shot Semantic Segmentation with Prototype Learning, BMVC2018
-- [ ] CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning, CVPR2019
-- [ ] One-Shot Segmentation in Clutter, ICML 2018
 
 #### other useful
 - [ ] Learning to Segment Every Thing: semi-supervised, weight transfer function (from bbox parameters to mask parameters)
@@ -216,23 +238,27 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [ ] Combining Bottom-Up, Top-Down, and Smoothness Cues for Weakly Supervised Image Segmentation: CVPR2017
 - [x] Improving Weakly-Supervised Object Localization By Micro-Annotation: BMVC2016, object classes always co-occur with same background elements(boat, train). propose a new annotation method. add human annotations to improve localization results of CAM, annotating based on clusters of dense features. each class uses a spectral clustering.(CAM has problem)
 - [x] Co-attention CNNs for Unsupervised Object Co-segmentation: IJCAI 2018
+- [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints, IJCAI2018
+- [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters, IJCAI2018
+- [x] Image-level to Pixel-wise Labeling: From Theory to Practice: fully, analysis the effect of image labels on seg results. add a generator(recover original image). image label(binary, use a threshold small than 0.5, eg:0.25), IJCAI2018
 
-#### application(pixel manipulation)
+#### application
 - [x] SeGAN: Segmenting and Generating the Invisible: CVPR2018, generate occluded parts
 - [x] Learning Hierarchical Semantic Image Manipulation through Structured Representations: NIPS2018, manipulate image on object-level by modify bbox
 
-#### IJCAI2018(keywords: segmentation, localization)
-- [ ] Annotation-Free and One-Shot Learning for Instance Segmentation of Homogeneous Object Clusters
-- [ ] Coarse-to-fine Image Co-segmentation with Intra and Inter Rank Constraints
-- [x] Image-level to Pixel-wise Labeling: From Theory to Practice: fully, analysis the effect of image labels on seg results. add a generator(recover original image). image label(binary, use a threshold small than 0.5, eg:0.25)
+## Related Tasks
+#### Few-shot segmentation
+- [ ] One-shot learning for semantic segmentation, BMVC2017
+- [ ] Conditional networks for few-shot semantic segmentation, ICLR2018 Workshop
+- [ ] Few-Shot Segmentation Propagation with Guided Networks, preprint
+- [ ] Few-Shot Semantic Segmentation with Prototype Learning, BMVC2018
+- [ ] CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning, CVPR2019
+- [ ] One-Shot Segmentation in Clutter, ICML 2018
 
-## Methods
-- refine seg results using image-level labels
-- multi-label classification branch(BDWSS)
-- generative branch(to original image) 
-- crf
+#### Weakly-supervised Instance Segmentation
+- [ ] Weakly Supervised Instance Segmentation using Class Peak Response, CVPR2018
+- [ ] Weakly Supervised Learning of Instance Segmentation with Inter-pixel Relations, CVPR2019
+- [ ] Object Counting and Instance Segmentation with Image-level Supervision, CVPR2019
 
-## Common analysis
-- ablation study
-- sensitivity analysis
-
+#### Weakly-supervised Panoptic Segmentation
+- [ ] Weakly- and Semi-Supervised Panoptic Segmentation, ECCV2018
