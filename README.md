@@ -89,7 +89,7 @@ List of useful codes and papers for semantic segmentation(mainly weakly)
 
 [DSRG](https://github.com/speedinghzl/DSRG): Caffe, CAM and DRFI provided 
 
-- SEC
+SEC
   - [original](https://github.com/kolesman/SEC): Caffe  
   - [BDSSW](https://github.com/ascust/BDWSS): MXNET
   - [SEC-tensorflow](https://github.com/xtudbxk/SEC-tensorflow): tensorflow  
