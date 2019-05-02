@@ -2,11 +2,39 @@
 
 #### Video
 
+Learning Video Object Segmentation from Static Images (masktrack), CVPR2017
+
 **Weakly Supervised Semantic Segmentation Using Web-Crawled Videos**, CVPR2017
 
 Fast User-Guided Video Object Segmentation by Interaction-and-Propagation Networks, CVPR2019
 
 **SCOPS: Self-Supervised Co-Part Segmentation**. CVPR2019
+
+**Improving Semantic Segmentation via Video Propagation and Label Relaxation**
+
+Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation
+
+Foreground Clustering for Joint Segmentation and Localization in Videos and Images, NIPS2018
+
+##### Motion based
+
+######  optical flow
+
+MoNet: Deep Motion Exploitation for Video Ojbect Segmentation, CVPR2018
+
+###### mask refinement
+
+Efficient video object segmentation via network modulation, CVPR 2018
+
+Learning video object segmentation from static images, 2017
+
+Fast and Accurate online video segmentation via tracking parts, 2018  
+
+##### Detection based
+
+One shot video object segmentation 
+
+
 
 Towards segmenting anything that moves, 
 
@@ -18,8 +46,9 @@ Video Object Segmentation and Tracking: A Survey, LinGuosheng
 
 [不同视角构造cycle-consistency，降低视频标注成本](https://mp.weixin.qq.com/s?__biz=MzU4MjQ3MDkwNA==&mid=2247489650&idx=1&sn=9bf3faf9e3f701c691c6d7c0230c812c&pass_ticket=kKH6zQhjNNZcUufO56qeszGgG9f0k9DjYmd9pbbUc4IN3KNpnJi%2Fle2KYoKpjvay)
 
-- Learning Correspondence from the Cycle-consistency of Time
-- Temporal Cycle-Consistency Learning
+- [Learning Correspondence from the Cycle-consistency of Time](paper_reports/Cct), cycle between different frame patch
+- [Temporal Cycle-Consistency Learning](paper_reports/Tcc), cycle between different video frame
+- [Time-Contrastive Networks](paper_reports/Tcn), triplet between frames among same video
 
 Depth from videos in the wild: Unsupervised Monocular Depth Learning from Unknown Cameras
 
@@ -43,6 +72,12 @@ Data augmentation using learned transforms for one-shot medical image segmentati
 
 
 
+#### Self-Supervised
+
+Revisiting Self-Supervised Visual Representation Learning, CVPR2019, review 4 common ss methods
+
+
+
 #### Webly
 
 [WebSeg: Learning Semantic Segmentation from Web Searches](paper_reports/WebSeg), arxiv, edges+MCG+saliency
@@ -57,13 +92,15 @@ Data augmentation using learned transforms for one-shot medical image segmentati
 
 **Few-Shot Semantic Segmentation with Prototype Learning**, BMVC2018
 
+Data augmentation using learned transformations for one-shot medical image segmentation, CVPR2019, spatial transform and appearance transform
+
 
 
 #### Semi-Supervised
 
 Weakly- and Semi-Supervised Panoptic Segmentation, ECCV2018
 
-**Adversarial Learning for Semi-Supervised Semantic Segmentation**, BMVC2018
+**Adversarial Learning for Semi-Supervised Semantic Segmentation**, BMVC2018, Ming-Hsuan Yang
 
 Transferable Semi-supervised Semantic Segmentation, AAAI 2018
 
@@ -90,4 +127,10 @@ Convolutional Simplex Projection Network for Weakly Supervised Semantic Segmenta
 
 #### Overhaed Imaginary
 Self-supervision-for-segmenting-overhead-imagery
+
+
+
+#### Fast Segmentation
+
+Improving Fast Segmentation With Teacher-student Learning, BMVC2018
 
