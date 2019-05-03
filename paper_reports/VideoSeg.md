@@ -1,4 +1,7 @@
 ## Video Segmentation Overview
+#### Basic
+- interleave box tracking with box-driven segmentation
+- propagate the first frame segmentation via graph labeling
 
 #### OSVOS (One Shot Video Object Segmentation)
 
@@ -11,7 +14,7 @@
 3. Train the new fully convolutional network on the DAVIS-2016 training set.
 4. **One-shot training:** At inference time, given a new input video for segmentation and a ground-truth annotation for the first frame (remember, this is a semi-supervised problem), create a new model, initialized with the weights trained in [3] and fine-tuned on the first frame.
 
-#### **MaskTrack (Learning Video Object Segmentation from Static Images)**
+#### MaskTrack (Learning Video Object Segmentation from Static Images)
 
 ![masktrack](/home/zhikang/src/python/Semantic-Segmentation/paper_reports/images/masktrack.png)
 
