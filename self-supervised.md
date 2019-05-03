@@ -16,7 +16,7 @@ Relative Patch Location: predicting the relative location of two given patches o
 
 cycle between tracking frame patches in same video
 
-cycle between frames in similar videos
+cycle between frames in similar videos (most similar frame of frame a in video A is frame b is video B, then then most similiar frame of frame B should be frame A correspondingly )
 
 triplet between time-near, faraway frames and anchor frame among same video 
 
