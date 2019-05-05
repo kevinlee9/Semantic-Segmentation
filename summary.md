@@ -2,19 +2,31 @@
 
 #### Video
 
+FEELVOS: Fast End-to-End Embedding Learning for Video Object Segmentation, liang-chieh Chen,CVPR2019
+
+**SCOPS: Self-Supervised Co-Part Segmentation**. CVPR2019
+
+MHP-VOS: Multiple Hypotheses Propagation for Video Object Segmentation, (semi-supervised,) CVPR2019
+
+RVOS: End-to-End Recurrent Network for Video Object Segmentation,(zero shot)
+
+**Spatiotemporal CNN for Video Object Segmentation**, CVPR2019
+
+- [x] Fast Online Object Tracking and Segmentation: A Unifying Approach, SiamMask, <https://mp.weixin.qq.com/s/tn3DBGQ-bfj8UCuupK-vHg>
+
+**Improving Semantic Segmentation via Video Propagation and Label Relaxation**， CVPR2019
+
+Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation
+
+
+
+Foreground Clustering for Joint Segmentation and Localization in Videos and Images, NIPS2018
+
 Learning Video Object Segmentation from Static Images (masktrack), CVPR2017
 
 **Weakly Supervised Semantic Segmentation Using Web-Crawled Videos**, CVPR2017
 
-Fast User-Guided Video Object Segmentation by Interaction-and-Propagation Networks, CVPR2019
 
-**SCOPS: Self-Supervised Co-Part Segmentation**. CVPR2019
-
-**Improving Semantic Segmentation via Video Propagation and Label Relaxation**
-
-Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation
-
-Foreground Clustering for Joint Segmentation and Localization in Videos and Images, NIPS2018
 
 ##### Motion based
 
@@ -36,13 +48,13 @@ One shot video object segmentation
 
 
 
-Towards segmenting anything that moves, 
+##### Others
+
+**Towards segmenting anything that moves**, 
 
 Video Object Segmentation and Tracking: A Survey, LinGuosheng
 
 **Jifeng Dai**
-
-
 
 [不同视角构造cycle-consistency，降低视频标注成本](https://mp.weixin.qq.com/s?__biz=MzU4MjQ3MDkwNA==&mid=2247489650&idx=1&sn=9bf3faf9e3f701c691c6d7c0230c812c&pass_ticket=kKH6zQhjNNZcUufO56qeszGgG9f0k9DjYmd9pbbUc4IN3KNpnJi%2Fle2KYoKpjvay)
 
