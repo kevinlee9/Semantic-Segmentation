@@ -12,6 +12,82 @@ Lucid Data Dreaming augmentations, temporal component
 
 
 
+### Approaches
+
+#### Semi-supervised
+
+###### Matching-based
+
+- OSVOS
+- OnAVOS (Online adaptation of convolutional neural networks for video object segmentation, BMVC 2017)
+- updating the network online with additional high confident predictions
+- OSVOS-S(Video object segmentation without temporal information,  PAMI 2018)
+     - semantic information from an instance segmentation network
+     - using the instance segments of the different objects in the scene as prior knowledge and blend them with the segmentation output
+
+- **Lucid**
+
+   - FAVOS, PML, videomatch
+
+     
+
+###### Propagation-based
+
+- MaskTrack
+- LucidTracker (Lucid Data Dreaming for Video Object Segmentation, IJCV)
+- CRN (Motion guided cascaded refinement network for video object segmentation, CVPR2018)
+  - applying active contour on optical flow to find motion cues
+- **CINM**: (Video object segmentation via inference in a CNN-based higher-order spatio-temporal MRF, CVPR2018)
+  - long-term temporal dependency
+- MoNet:  (MoNet: Deep motion exploitation for video object segmentation, CVPR2018)
+  - exploits optical flow motion cues by feature alignment and a distance transform layer
+  - combined temporal information from nearby frame to track the target
+- LSE: (Video object segmentation by learning location-sensitive embeddings, ECCV2018)
+  - Location-sensitive embeddings used to refine an initial foreground prediction
+  - combined temporal information from nearby frame to track the target
+
+
+
+- OSMN, RGMP, FEELVOS, MHP-VOS, RVOS
+  - meta-learning , Conditional Batch Normalization (CBN) to gather spatiotemporal features
+  - applied instance detection
+
+- STCNN (Spatiotemporal CNN for Video Object Segmentation, CVPR2019)
+  - the temporal coherence branch pretrained in an adversarial fashion from unlabeled video data
+
+
+
+###### Detection-based 
+
+- MHP-VOS: (MHP-VOS: Multiple Hypotheses Propagation for Video Object Segmentation, CVPR2019)
+  - cases that objects are occluded or missing
+
+
+
+###### Fast (without fine tune)
+
+- FAVOS (Fast and accurate online video object segmentation via tracking parts, CVPR2018)
+- PML (Blazingly fast video object segmentation with pixel-wise metric learning, CVPR2018)
+- Videomatch (Videomatch: Matching based video object segmentation, CVPR2018)
+
+
+
+- OSMN (Efficient video object segmentation via network modulation, CVPR2018)
+  - meta-learning 
+- RGMP (Fast video object segmentation by reference-guided mask propagation, CVPR2018)
+- FEELVOS (Fast End-to-End Embedding Learning for Video Object Segmentation, CVPR2019)
+
+
+
+#### Unsupervised
+
+- RVOS (RVOS: End-to-End Recurrent Network for Video Object Segmentation: CVPR2019)
+- ****, (Instance Embedding Transfer to Unsupervised Video Object Segmentation: CVPR2018)
+
+
+
+### Details
+
 #### OSVOS (One Shot Video Object Segmentation)
 
 ![osvos](../paper_reports/images/osvos.png)
