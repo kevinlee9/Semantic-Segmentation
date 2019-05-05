@@ -1,11 +1,20 @@
 ## Video Segmentation Overview
 #### Basic
+
+roadmap:
+
 - interleave box tracking with box-driven segmentation
 - propagate the first frame segmentation via graph labeling
 
+
+
+Lucid Data Dreaming augmentations, temporal component
+
+
+
 #### OSVOS (One Shot Video Object Segmentation)
 
-![osvos](/home/zhikang/src/python/Semantic-Segmentation/paper_reports/images/osvos.png)
+![osvos](../paper_reports/images/osvos.png)
 
 1. Take a net (say VGG-16) pre-trained for classification for example, on imagenet.
 2. Convert it to a fully convolutional network, à la [FCN](https://arxiv.org/abs/1605.06211), thus preserving spatial information:
@@ -16,5 +25,24 @@
 
 #### MaskTrack (Learning Video Object Segmentation from Static Images)
 
-![masktrack](/home/zhikang/src/python/Semantic-Segmentation/paper_reports/images/masktrack.png)
+![masktrack](../paper_reports/images/masktrack.png)
 
+###### offline training
+
+conditional mask prediction
+
+hypothesis: mask estimation are smooth among two near frames 
+
+train: image dataset, use augmentation (deformation and affine transformation on mask) to simulate last frame prediction
+
+test: RGB+last frame mask estimation -> current frame mask estimation
+
+###### online training
+
+fine tune on test video,  generate multiple training samples by augmentation (deformation and affine transformation on mask)
+
+
+
+#### CRN
+
+ Motion-guided cascaded refinement network for video object segmentation 
