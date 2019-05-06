@@ -5,3 +5,13 @@
 
 #### Self-Supervised Learning
 - [Link](https://github.com/jason718/awesome-self-supervised-learning)
+
+
+
+
+
+
+
+#### Unknown
+
+Segmentations is All You Need

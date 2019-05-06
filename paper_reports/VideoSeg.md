@@ -82,7 +82,30 @@ Lucid Data Dreaming augmentations, temporal component
 #### Unsupervised
 
 - RVOS (RVOS: End-to-End Recurrent Network for Video Object Segmentation: CVPR2019)
-- ****, (Instance Embedding Transfer to Unsupervised Video Object Segmentation: CVPR2018)
+- IET, (Instance Embedding Transfer to Unsupervised Video Object Segmentation: CVPR2018)
+  - adapt the instance networks trained on static images
+  - incorporate the embeddings with objectness and optical flow features
+- LMP (Learning motion patterns in videos, CVPR2017)
+  - takes optical flow as an input to separate moving and non-moving regions
+  - combines the results with objectness cues from SharpMask [35] to generate the moving object segmentation 
+- LVO (Learning video object segmentation with visual memory, ICCV2017)
+  - two-stream network, using RGB appearance features and optical flow motion features
+- **FSEG** (Fusionseg: Learning to combine motion and appearance for fully automatic segmention of generic objects in videos, CVPR2017)
+  - two-stream network trained with mined supplemental data
+
+
+
+##### Early works
+
+Bilateral space video segmentation, 2016
+
+Video segmentation via object flow, 2016
+
+Efficient video segmentation using parametric graph partitioning, 2015
+
+Streaming hierarchical video segmentation, 2012
+
+
 
 
 

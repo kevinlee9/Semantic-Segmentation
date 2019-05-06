@@ -26,6 +26,10 @@ Learning Video Object Segmentation from Static Images (masktrack), CVPR2017
 
 **Weakly Supervised Semantic Segmentation Using Web-Crawled Videos**, CVPR2017
 
+Learning semantic segmentation with weakly-annotated videos, ECCV2016
+
+Fast object segmentation in unconstrained video, ICCV2013
+
 
 
 ##### Motion based
@@ -50,7 +54,9 @@ One shot video object segmentation
 
 ##### Others
 
-**Towards segmenting anything that moves**, 
+**Towards segmenting anything that moves**,
+
+**SCOPS: Self-Supervised Co-Part Segmentation**
 
 Video Object Segmentation and Tracking: A Survey, LinGuosheng
 
@@ -86,7 +92,15 @@ Data augmentation using learned transforms for one-shot medical image segmentati
 
 #### Self-Supervised
 
-Revisiting Self-Supervised Visual Representation Learning, CVPR2019, review 4 common ss methods
+Revisiting Self-Supervised Visual Representation Learning, CVPR2019, review 4 common image ss methods
+
+SCOPS: Self-Supervised Co-Part Segmentation,  CVPR2019
+
+Time-contrastive Networks: Self-Supervised Learning from Video
+
+Temporal Cycle-Consistency Learning,  CVPR2019
+
+Learning Correspondence from the Cycle-consistency of Time, CVPR2019
 
 
 
@@ -130,6 +144,8 @@ Transferable Semi-supervised Semantic Segmentation, AAAI 2018
 
 Convolutional Simplex Projection Network for Weakly Supervised Semantic Segmentation, BMVC2018
 
+**Cyclic Guidance for Weakly supervised Joint Detection and Segmentation**
+
 
 
 #### Weakly-Instance
@@ -145,4 +161,18 @@ Self-supervision-for-segmenting-overhead-imagery
 #### Fast Segmentation
 
 Improving Fast Segmentation With Teacher-student Learning, BMVC2018
+
+
+
+## Useful Knowledge
+
+Lucid
+
+#### Appearance model
+
+
+
+#### Transformation model
+
+deformable
 

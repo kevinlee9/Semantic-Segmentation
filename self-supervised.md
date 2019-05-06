@@ -20,3 +20,23 @@ cycle between frames in similar videos (most similar frame of frame a in video A
 
 triplet between time-near, faraway frames and anchor frame among same video 
 
+
+
+
+
+
+
+#### Papers
+
+Revisiting Self-Supervised Visual Representation Learning, CVPR2019
+
+SCOPS: Self-Supervised Co-Part Segmentation,  CVPR2019
+
+Time-contrastive Networks: Self-Supervised Learning from Video
+
+Temporal Cycle-Consistency Learning,  CVPR2019
+
+Learning Correspondence from the Cycle-consistency of Time, CVPR2019
+
+
+
