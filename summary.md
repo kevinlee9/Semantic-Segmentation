@@ -160,6 +160,10 @@ Convolutional Simplex Projection Network for Weakly Supervised Semantic Segmenta
 
 
 
+#### Weakly-Localization
+
+what about used for fine-grain 
+
 #### Weakly-Instance
 
 

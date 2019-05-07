@@ -6,7 +6,7 @@ synthesizing new training samples: use a  video prediction-based methodology
 
 video prediction: prone to producing unnatural distortions along object boundaries
 
-work: SDC-Net: Video Prediction using Spatially-Displaced Convolution
+![framework](images/videoprediction.png)
 
 
 
@@ -40,6 +40,10 @@ This Paper: predict multiple classes at a boundary pixel
 
 
 #### Method
+
+###### Video Prediction
+
+SDC-Net: Video Prediction using Spatially-Displaced Convolution
 
 ###### Boundary Label Relaxation
 
