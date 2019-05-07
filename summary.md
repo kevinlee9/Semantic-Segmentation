@@ -52,6 +52,16 @@ One shot video object segmentation
 
 
 
+##### Semantic
+
+Semantic Video CNNs Through Representation Warping, ICCV 2017
+
+Semantic Video Segmentation by Gated Recurrent Flow Propagation, CVPR2018
+
+Efficient Uncertainty Estimation for Semantic Segmentation in Videos, ECCV 2018
+
+
+
 ##### Others
 
 **Towards segmenting anything that moves**,
@@ -130,9 +140,11 @@ Weakly- and Semi-Supervised Panoptic Segmentation, ECCV2018
 
 Transferable Semi-supervised Semantic Segmentation, AAAI 2018
 
-**Adversarial Dropout for Supervised and Semi-Supervised Learning**, AAAI 2018
+**Adversarial Dropout for Supervised and Semi-Supervised Learning**, AAAI 2018 
 
+PIXEL LEVEL DATA AUGMENTATION FOR SEMANTIC IMAGE SEGMENTATION USING GENERATIVE ADVERSARIAL NETWORKS: Interesting
 
+- balance distribution by generating image using GAN (manipulate on GT mask)
 
 
 
@@ -165,6 +177,12 @@ Improving Fast Segmentation With Teacher-student Learning, BMVC2018
 
 
 ## Useful Knowledge
+
+### Uncertainty
+
+[doc](./paper_reports/uncertainty)
+
+### Augmentation
 
 Lucid
 

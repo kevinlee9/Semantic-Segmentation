@@ -23,6 +23,8 @@ use coseg to get pseudo mask?
 
 Lucid data augmentation
 
+
+
 #### Attention
 
 - attention map: fusion by multiple scale
