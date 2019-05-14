@@ -95,7 +95,8 @@ SEC
   - [SEC-tensorflow](https://github.com/xtudbxk/SEC-tensorflow): tensorflow  
 
 ## Others
-see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more lists and resources. 
+see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more weakly lists and resources.  
+see [this](https://github.com/wutianyiRosun/Segmentation.X) for more semantic/instance/panoptic/video segmentation lists and resources.
 see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more implementations  
 a good architecture summary paper:[Learning a Discriminative Feature Network for Semantic Segmentation](https://arxiv.org/pdf/1804.09337.pdf)
 #### tutorial
