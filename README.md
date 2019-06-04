@@ -53,7 +53,7 @@ List of useful codes and papers for semantic segmentation(mainly weakly)
 | [SeeNet](https://arxiv.org/abs/1810.09821)<sub>NIPS2018</sub> | 63.1 | 62.8 | based on DCSP |
 | [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 63.6 | 64.5 | graph partition|
 | [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 64.5 | 65.6 | use simple ImageNet dataset additionally|
-| [CIAN](https://arxiv.org/abs/1811.10842)<sub>arxiv</sub> | 64.1 | 64.7 | cross image affinity network|
+| [CIAN](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | 64.1 | 64.7 | cross image affinity network|
 | [FickleNet](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | **64.9** | **65.3** | use dropout (a generalization of dilated convolution)|
 
 #### COCO
