@@ -133,6 +133,14 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - generative branch(to original image) 
 - crf
 
+## Under Review
+- [ ] [Gated CRF Loss for Weakly Supervised Semantic Image Segmentation](https://arxiv.org/abs/1906.04651)
+- [ ] [Closed-Loop Adaptation for Weakly-Supervised Semantic Segmentation](https://arxiv.org/abs/1905.12190)
+- [ ] [Harvesting Information from Captions for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/1905.06784)
+- [ ] [Consistency regularization and CutMix for semi-supervised semantic segmentation](https://arxiv.org/abs/1906.01916)
+- [ ] [Zero-shot Semantic Segmentation](https://arxiv.org/abs/1906.00817)
+
+
 ## Reading List
 
 #### context 
