@@ -273,6 +273,7 @@ Box-driven Class-wise Region Masking and Filling Rate Guided Loss for Weakly Sup
 - [ ] Weakly Supervised Instance Segmentation using Class Peak Response, CVPR2018
 - [ ] Weakly Supervised Learning of Instance Segmentation with Inter-pixel Relations, CVPR2019
 - [ ] Object Counting and Instance Segmentation with Image-level Supervision, CVPR2019
+- [ ] Cyclic Guidance for Weakly Supervised Joint Detection and Segmentation, CVPR2019
 
 #### Weakly-supervised Panoptic Segmentation
 - [ ] Weakly- and Semi-Supervised Panoptic Segmentation, ECCV2018
