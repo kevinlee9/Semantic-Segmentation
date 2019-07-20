@@ -109,6 +109,7 @@ SEC
 - [ ] Conditional networks for few-shot semantic segmentation, ICLR2018 Workshop
 - [ ] Few-Shot Segmentation Propagation with Guided Networks, preprint
 - [ ] Few-Shot Semantic Segmentation with Prototype Learning, BMVC2018
+- [ ] Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation, AAAI2019
 - [ ] CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning, CVPR2019
 - [ ] One-Shot Segmentation in Clutter, ICML 2018
 
