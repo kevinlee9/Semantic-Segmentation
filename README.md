@@ -1,21 +1,22 @@
-# Semantic-Segmentation
-List of useful codes and papers for semantic segmentation(mainly weakly)
+# Weakly-Segmentation
+List of useful codes and papers for weakly supervised Semantic/Instance/Panoptic/Few Shot Segmentation
 
-- [Semantic-Segmentation](#semantic-segmentation)
+- [Semantic-Segmentation](#weakly-segmentation)
   * [Top Works](#top-works)
       - [PASCAL VOC2012](#pascal-voc2012)
-      - [COCO](#coco)
-  * [Codes](#codes)
-  * [Others](#others)
-      - [tutorial](#tutorial)
-      - [priors](#priors)
-      - [diffusion](#diffusion)
-      - [analysis](#analysis)
-      - [post processing](#post-processing)
-      - [common methods](#common-methods)
-  * [Reading List](#reading-list)
+  * [Resources](#resources)
+      - [Tutorial](#tutorial)
+  * [Implementation](#implementation)
+- [Related Tasks](#related-tasks)
+  * [Few-shot segmentation](#few-shot-segmentation)
+  * [Weakly-supervised Instance Segmentation](#weakly-supervised-instance-segmentation)
+  * [Weakly-supervised Panoptic Segmentation](#weakly-supervised-panoptic-segmentation)
+- [Reading List](#reading-list)
+  * [Under Review](#under-review)
+  * [Published](#published)
       - [context](#context)
       - [graph](#graph)
+      - [bbox-level](#bbox-level)
       - [webly](#webly)
       - [Saliency](#saliency)
       - [localization](#localization)
@@ -30,10 +31,12 @@ List of useful codes and papers for semantic segmentation(mainly weakly)
       - [scene understanding](#scene-understanding)
       - [other useful](#other-useful)
       - [application](#application)
-  * [Related Tasks](#related-tasks)
-      - [Few-shot segmentation](#few-shot-segmentation)
-      - [Weakly-supervised Instance Segmentation](#weakly-supervised-instance-segmentation)
-      - [Weakly-supervised Panoptic Segmentation](#weakly-supervised-panoptic-segmentation)
+  * [Others](#others)
+      - [priors](#priors)
+      - [diffusion](#diffusion)
+      - [analysis](#analysis)
+      - [post processing](#post-processing)
+      - [common methods](#common-methods)
 
             
 ## Top Works
@@ -56,10 +59,16 @@ List of useful codes and papers for semantic segmentation(mainly weakly)
 | [CIAN](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | 64.1 | 64.7 | cross image affinity network|
 | [FickleNet](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | **64.9** | **65.3** | use dropout (a generalization of dilated convolution)|
 
-#### COCO
+## Resources
+see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more weakly lists and resources.  
+see [this](https://github.com/wutianyiRosun/Segmentation.X) for more semantic/instance/panoptic/video segmentation lists and resources.
+see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more implementations  
+a good architecture summary paper:[Learning a Discriminative Feature Network for Semantic Segmentation](https://arxiv.org/pdf/1804.09337.pdf)
+#### Tutorial
+- Unsupervised Visual Learning Tutorial. *CVPR 2018* [[part 1]](https://www.youtube.com/watch?v=gSqmUOAMwcc) [[part 2]](https://www.youtube.com/watch?v=BijK_US6A0w)
+- Weakly Supervised Learning for Computer Vision. *CVPR 2018* [[web]](https://hbilen.github.io/wsl-cvpr18.github.io/) [[part 1]](https://www.youtube.com/watch?v=bXfZFmE8cjo) [[part 2]](https://www.youtube.com/watch?v=FetNp6f19IM)
 
-
-## Codes
+## Implementation
 
 [pytorch-segmentation-detection](https://github.com/warmspringwinds/pytorch-segmentation-detection) a library for dense inference and training of Convolutional Neural Networks, 68.0%
 
@@ -94,44 +103,26 @@ SEC
   - [BDSSW](https://github.com/ascust/BDWSS): MXNET
   - [SEC-tensorflow](https://github.com/xtudbxk/SEC-tensorflow): tensorflow  
 
-## Others
-see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more weakly lists and resources.  
-see [this](https://github.com/wutianyiRosun/Segmentation.X) for more semantic/instance/panoptic/video segmentation lists and resources.
-see [this](https://github.com/mrgloom/awesome-semantic-segmentation) for more implementations  
-a good architecture summary paper:[Learning a Discriminative Feature Network for Semantic Segmentation](https://arxiv.org/pdf/1804.09337.pdf)
-#### tutorial
-- Unsupervised Visual Learning Tutorial. *CVPR 2018* [[part 1]](https://www.youtube.com/watch?v=gSqmUOAMwcc) [[part 2]](https://www.youtube.com/watch?v=BijK_US6A0w)
-- Weakly Supervised Learning for Computer Vision. *CVPR 2018* [[web]](https://hbilen.github.io/wsl-cvpr18.github.io/) [[part 1]](https://www.youtube.com/watch?v=bXfZFmE8cjo) [[part 2]](https://www.youtube.com/watch?v=FetNp6f19IM)
+# Related Tasks
+## Few-shot segmentation
+- [ ] One-shot learning for semantic segmentation, BMVC2017
+- [ ] Conditional networks for few-shot semantic segmentation, ICLR2018 Workshop
+- [ ] Few-Shot Segmentation Propagation with Guided Networks, preprint
+- [ ] Few-Shot Semantic Segmentation with Prototype Learning, BMVC2018
+- [ ] CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning, CVPR2019
+- [ ] One-Shot Segmentation in Clutter, ICML 2018
 
-#### priors
-- Superpixels: An Evaluation of the State-of-the-Art [link](https://github.com/davidstutz/superpixel-benchmark)
-- Learning Superpixels with Segmentation-Aware Affinity Loss[link](http://jankautz.com/publications/LearningSuperpixels_CVPR2018.pdf)
-- Superpixel based Continuous Conditional Random Field Neural Network for Semantic Segmentation [link](https://www.sciencedirect.com/science/article/pii/S0925231219300281)
+## Weakly-supervised Instance Segmentation
+- [x] Weakly Supervised Instance Segmentation using Class Peak Response, CVPR2018
+- [ ] Weakly Supervised Learning of Instance Segmentation with Inter-pixel Relations, CVPR2019
+- [ ] Object Counting and Instance Segmentation with Image-level Supervision, CVPR2019
+- [x] Cyclic Guidance for Weakly Supervised Joint Detection and Segmentation, CVPR2019
+- [x] Where are the Masks: Instance Segmentation with Image-level Supervision, BMVC2019
 
-#### diffusion
-Learning random-walk label propagation for weakly-supervised semantic segmentation: scribble
+## Weakly-supervised Panoptic Segmentation
+- [ ] Weakly- and Semi-Supervised Panoptic Segmentation, ECCV2018
 
-Convolutional Random Walk Networks for Semantic Image Segmetation: fully, affinity branch(low level)
-
-Soft Proposal Networks for Weakly Supervised Object Localization: attention, semantic affinity
-
-Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation: image-level, semantic affinity
-
-#### analysis
-image level to pixel wise labeling: from theory to practice: IJCAI 2018 analysis the effectiveness of class-level labels for segmentation(GT, predicted)
-Attention based Deep Multiple Instance Learning: ICML 2018. CAM from MIL perspective view
-
-#### post processing
-listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2018CAC.pdf)
-- Otsu’s method
-- GrabCut
-- CRF    
-
-#### common methods
-- refine segmentation results using image-level labels
-- multi-label classification branch(BDWSS)
-- generative branch(to original image) 
-- crf
+# Reading List
 
 ## Under Review
 - [ ] [Gated CRF Loss for Weakly Supervised Semantic Image Segmentation](https://arxiv.org/abs/1906.04651)
@@ -140,9 +131,7 @@ listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://
 - [ ] [Consistency regularization and CutMix for semi-supervised semantic segmentation](https://arxiv.org/abs/1906.01916)
 - [ ] [Zero-shot Semantic Segmentation](https://arxiv.org/abs/1906.00817)
 
-
-## Reading List
-
+## Published
 #### context 
 - [x] Context Encoding for Semantic Segmentation: CVPR2018. use TEN
 - [ ] The Role of Context for Object Detection and Semantic Segmentation in the Wild: CVPR2014
@@ -260,20 +249,35 @@ Box-driven Class-wise Region Masking and Filling Rate Guided Loss for Weakly Sup
 - [x] SeGAN: Segmenting and Generating the Invisible: CVPR2018, generate occluded parts
 - [x] Learning Hierarchical Semantic Image Manipulation through Structured Representations: NIPS2018, manipulate image on object-level by modify bbox
 
-## Related Tasks
-#### Few-shot segmentation
-- [ ] One-shot learning for semantic segmentation, BMVC2017
-- [ ] Conditional networks for few-shot semantic segmentation, ICLR2018 Workshop
-- [ ] Few-Shot Segmentation Propagation with Guided Networks, preprint
-- [ ] Few-Shot Semantic Segmentation with Prototype Learning, BMVC2018
-- [ ] CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning, CVPR2019
-- [ ] One-Shot Segmentation in Clutter, ICML 2018
 
-#### Weakly-supervised Instance Segmentation
-- [ ] Weakly Supervised Instance Segmentation using Class Peak Response, CVPR2018
-- [ ] Weakly Supervised Learning of Instance Segmentation with Inter-pixel Relations, CVPR2019
-- [ ] Object Counting and Instance Segmentation with Image-level Supervision, CVPR2019
-- [ ] Cyclic Guidance for Weakly Supervised Joint Detection and Segmentation, CVPR2019
+## Others
+#### priors
+- Superpixels: An Evaluation of the State-of-the-Art [link](https://github.com/davidstutz/superpixel-benchmark)
+- Learning Superpixels with Segmentation-Aware Affinity Loss[link](http://jankautz.com/publications/LearningSuperpixels_CVPR2018.pdf)
+- Superpixel based Continuous Conditional Random Field Neural Network for Semantic Segmentation [link](https://www.sciencedirect.com/science/article/pii/S0925231219300281)
 
-#### Weakly-supervised Panoptic Segmentation
-- [ ] Weakly- and Semi-Supervised Panoptic Segmentation, ECCV2018
+#### diffusion
+Learning random-walk label propagation for weakly-supervised semantic segmentation: scribble
+
+Convolutional Random Walk Networks for Semantic Image Segmetation: fully, affinity branch(low level)
+
+Soft Proposal Networks for Weakly Supervised Object Localization: attention, semantic affinity
+
+Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation: image-level, semantic affinity
+
+#### analysis
+image level to pixel wise labeling: from theory to practice: IJCAI 2018 analysis the effectiveness of class-level labels for segmentation(GT, predicted)
+Attention based Deep Multiple Instance Learning: ICML 2018. CAM from MIL perspective view
+
+#### post processing
+listed in : [Co-attention CNNs for Unsupervised Object Co-segmentation](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Hsu2018CAC.pdf)
+- Otsu’s method
+- GrabCut
+- CRF    
+
+#### common methods
+- refine segmentation results using image-level labels
+- multi-label classification branch(BDWSS)
+- generative branch(to original image) 
+- crf
+
