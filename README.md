@@ -131,6 +131,7 @@ SEC
 - [ ] [Harvesting Information from Captions for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/1905.06784)
 - [ ] [Consistency regularization and CutMix for semi-supervised semantic segmentation](https://arxiv.org/abs/1906.01916)
 - [ ] [Zero-shot Semantic Segmentation](https://arxiv.org/abs/1906.00817)
+- [x] [Self-supervised Scale Equivariant Network for Weakly Supervised Semantic Segmentation](https://arxiv.org/pdf/1909.03714.pdf), propose an scale equivariant regularization. 
 
 ## Published
 #### context 
