@@ -1,9 +1,12 @@
 # Weakly-Segmentation
 List of useful codes and papers for weakly supervised Semantic/Instance/Panoptic/Few Shot Segmentation
 
-- [Semantic-Segmentation](#weakly-segmentation)
-  * [Top Works](#top-works)
-      - [PASCAL VOC2012](#pascal-voc2012)
+- [Weakly-Segmentation](#weakly-segmentation)
+  * [Top Work](#top-work)
+      - [By Dataset](#by-dataset)
+          + [PASCAL VOC2012](#pascal-voc2012)
+      - [By Years](#by-years)
+          + [ICCV2019](#iccv2019)
   * [Resources](#resources)
       - [Tutorial](#tutorial)
   * [Implementation](#implementation)
@@ -39,8 +42,9 @@ List of useful codes and papers for weakly supervised Semantic/Instance/Panoptic
       - [common methods](#common-methods)
 
             
-## Top Works
-#### PASCAL VOC2012
+## Top Work
+#### By Dataset
+###### PASCAL VOC2012
 
 | method | val | test       |  notes |
 | ------------ | ---------- | ---------- | ---------- |
@@ -57,7 +61,15 @@ List of useful codes and papers for weakly supervised Semantic/Instance/Panoptic
 | [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 63.6 | 64.5 | graph partition|
 | [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 64.5 | 65.6 | use simple ImageNet dataset additionally|
 | [CIAN](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | 64.1 | 64.7 | cross image affinity network|
-| [FickleNet](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | **64.9** | **65.3** | use dropout (a generalization of dilated convolution)|
+| [FickleNet](https://arxiv.org/abs/1902.10421)<sub>CVPR2019</sub> | **64.9** | **65.3** | use dropout (a generalization of dilated convolution)|
+
+#### By Years
+###### ICCV2019
+Joint Learning of Saliency Detection and Weakly Supervised Semantic Segmentation   
+Self-Supervised Difference Detection for Weakly-Supervised Semantic Segmentation
+###### CVPR2019
+FickleNet: Weakly and Semi-supervised Semantic Image Segmentation using Stochastic Inference  
+
 
 ## Resources
 see [this](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList) for more weakly lists and resources.  
@@ -119,6 +131,7 @@ SEC
 - [ ] Object Counting and Instance Segmentation with Image-level Supervision, CVPR2019
 - [x] Cyclic Guidance for Weakly Supervised Joint Detection and Segmentation, CVPR2019
 - [x] Where are the Masks: Instance Segmentation with Image-level Supervision, BMVC2019
+- [ ] Label-PEnet: Sequential Label Propagation and Enhancement Networks for Weakly Supervised Instance Segmentation, ICCV2019
 
 ## Weakly-supervised Panoptic Segmentation
 - [ ] Weakly- and Semi-Supervised Panoptic Segmentation, ECCV2018
