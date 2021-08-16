@@ -62,11 +62,13 @@ List of useful codes and papers for weakly supervised Semantic/Instance/Panoptic
 | [Graph](http://mftp.mmcheng.net/Papers/18ECCVGraphPartition.pdf)<sub>ECCV2018</sub> | 64.5 | 65.6 | use simple ImageNet dataset additionally|
 | [CIAN](https://arxiv.org/abs/1811.10842)<sub>CVPR2019</sub> | 64.1 | 64.7 | cross image affinity network|
 | [FickleNet](https://arxiv.org/abs/1902.10421)<sub>CVPR2019</sub> | **64.9** | **65.3** | use dropout (a generalization of dilated convolution)|
+| [OAA](https://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Integral_Object_Mining_via_Online_Attention_Accumulation_ICCV_2019_paper.pdf)<sub>ICCV2019</sub> | 65.2 | 66.4 | online attention accumulation |
 
 #### By Years
 ###### ICCV2019
 Joint Learning of Saliency Detection and Weakly Supervised Semantic Segmentation   
-Self-Supervised Difference Detection for Weakly-Supervised Semantic Segmentation
+Self-Supervised Difference Detection for Weakly-Supervised Semantic Segmentation  
+Integral Object Mining via Online Attention Accumulation
 ###### CVPR2019
 FickleNet: Weakly and Semi-supervised Semantic Image Segmentation using Stochastic Inference  
 
