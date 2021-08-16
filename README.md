@@ -67,7 +67,7 @@ List of useful codes and papers for weakly supervised Semantic/Instance/Panoptic
 #### By Years
 ###### ICCV2019
 Joint Learning of Saliency Detection and Weakly Supervised Semantic Segmentation   
-Self-Supervised Difference Detection for Weakly-Supervised Semantic Segmentation
+Self-Supervised Difference Detection for Weakly-Supervised Semantic Segmentation  
 Integral Object Mining via Online Attention Accumulation
 ###### CVPR2019
 FickleNet: Weakly and Semi-supervised Semantic Image Segmentation using Stochastic Inference  
